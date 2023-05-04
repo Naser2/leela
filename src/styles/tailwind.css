@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Inter-roman.var.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('/fonts/Inter-italic.var.woff2') format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+}
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  font-family: Clarkson, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.css-4xd708 {
+  background: transparent;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.css-n6s3hr {
+  width: auto;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Clarkson, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 0px 16px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  min-height: 55px;
+}
+@media (min-width: 100px) {
+  .css-n6s3hr {
+    padding: 0px 0px;
+    letter-spacing: 0px;
+  }
+}
+
+.text-btn {
+  font-family: Clarkson, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  padding: 16px 16px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  min-height: 55px;
+}
+@media (min-width: 100px) {
+  .text-btn {
+    /* padding: 0px 0px; */
+    letter-spacing: 0px;
+  }
+}
+a {
+  color: #181818;
+  text-decoration: none;
+  background: transparent;
+}
+
+@media only screen and (pointer: coarse) and (orientation: portrait) and (max-device-width: 428px),
+  only screen and (pointer: coarse) and (orientation: landscape) and (max-device-height: 428px) {
+  .css-p9dp5v {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+.css-p9dp5v {
+  font-weight: 500;
+  /* display: inline-block; */
+  margin: 0px;
+  position: relative;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  /* color: rgb(255, 255, 255); */
+  font-family: Clarkson, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+h1,
+h2,
+h3 {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1em;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+h1 {
+  text-transform: uppercase;
+}
+.title {
+  font-weight: 600;
+  font-family: 'Clarkson', sans-serif;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 0 0 1em 0;
+}
+
+.title {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  /* color: rgb(255, 255, 255); */
+  /* font-weight: 500; */
+
+  font-size: 26px;
+
+  margin-bottom: 22px;
+}
+@media only screen and (any-pointer: fine) and (min-width: 1025px) {
+  .title {
+    font-weight: 900;
+    font-size: 59px;
+    margin-top: 0px;
+    margin-bottom: 33px;
+    padding-top: 0px;
+  }
+}
+
+.about-banner {
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: block;
+  background-position: center center;
+  background-size: cover;
+}
+
+.team-member-details h1 {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  display: block;
+  width: 100%;
+  color: #3b3b3b;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-size: 2.25rem;
+}
+
+.paragraph {
+  color: #3b3b3b;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  /* background: indigo; */
+  transform-origin: 0%;
+}
+
+.contact .contact-address {
+  font-weight: 300;
+  line-height: 2rem;
+  /* text-align: right; */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.2s ease-in forwards;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+/* @keyframes slideIn {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-slideIn-section {
+  animation: slideIn 1s ease-in forwards;
+} */
+
+.slid-wrapper {
+  position: relative;
+  /* width: 90%;
+  height: 300px;
+  left: 5%;
+  margin: 16px 0; */
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  /* border-radius: 4px; */
+  overflow: hidden;
+  /* border: 2px solid #000; */
+}
+
+.intro:nth-child(1) {
+  /*m = 1*/
+  /*animation-delay: 0s;*/
+  /*(m - 1)(t + s) = 0s*/
+  /*slide T infinite,first-slide t*/
+  /* animation: slide 7s infinite, first-slide 3s; */
+  animation: slide 2s infinite, first-slide s;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  11.11%,
+  33.33% {
+    /*sStart, sStop*/
+    transform: translateX(0);
+  }
+  44.44%,
+  100% {
+    /*wStart, 100%*/
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes first-slide {
+  4%,
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.member-jobtitle {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.team-member-details .about-page-personal {
+  color: #3b3b3b;
+  /* line-height: 1; */
+  /* font-weight: 400; */
+  letter-spacing: 0.01em;
+  font-size: 1.12rem !important;
+  /* font-size: 1.85rem !important; */
+}
+
+.xxl\:contents {
+  display: none;
+}
+
+/* @media (max-width: 1930px) {
+  .xxl\:contents {
+    display: none;
+  }
+} */
+@media (min-width: 1620px) {
+  .xxl\:contents {
+    display: contents;
+  }
+}
+
+/* .pr-36 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+@media (min-width: 1280px) {
+  .xl\:pr-36 {
+    padding-left: 3.3rem;
+    padding-right: 50rem !important;
+  }
+} */
