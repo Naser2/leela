@@ -34,7 +34,7 @@ export function Footer({ BG }) {
                   href="/"
                   className="text-base font-semibold text-blue-500 lg:text-2xl "
                 >
-                  LELLA
+                  LEELLA
                 </Link>
                 <p className="mt-1 text-sm lg:text-xl ">
                   Building brands since 1998

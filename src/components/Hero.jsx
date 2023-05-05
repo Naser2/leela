@@ -565,8 +565,8 @@ const Contact = () => {
         <p className="mt-2 text-3xl font-bold tracking-tight text-black sm:text-4xl">
           GET IN TOUCH
         </p>
-        <p className="my-2 text-lg leading-8 text-gray-600 lg:text-2xl  lg:font-semibold lg:text-gray-500 ">
-          Please reach oput if you have any inquiries.
+        <p className="my-2 text-lg leading-8 text-gray-600 lg:text-2xl  lg:font-semibold lg:text-gray-600 ">
+          Please reach out if you have any inquiries.
           <address className="contact-address lg:text-2xl">
             <Link
               href="mailto:inquire@leelanyc.com"
