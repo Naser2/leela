@@ -63,7 +63,7 @@ export default function AboutPage() {
                       LEELA&apos;s FOUNDER
                     </h2>{' '}
                     <svg
-                      class="ml-2  mr-1.5 mt-1 h-5 w-5 flex-shrink-0 text-blue-400"
+                      class="ml-0  mr-1.5 mt-1 h-5 w-5 flex-shrink-0 text-blue-400"
                       x-description="Heroicon name: mini/check-circle"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
