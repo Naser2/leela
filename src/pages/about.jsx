@@ -82,7 +82,10 @@ export default function AboutPage() {
                     <h2 class="member-jobtitle -mt-2  py-1.5 text-2xl  text-slate-600 md:order-first md:bg-sky-50/50 md:px-3 lg:-ml-4  lg:bg-sky-200/40 ">
                       Brand Director & Senior marketing executive.
                     </h2>{' '}
-                    <div id="social-up-to-xl" className="min-[903px]:hidden">
+                    <div
+                      id="REALL SOCIAL SHOW UP TO XL"
+                      className="min-[903px]:hidden"
+                    >
                       <SocialLinks />
                     </div>
                   </p>
@@ -121,7 +124,10 @@ export default function AboutPage() {
                   </div>
                 </div>
               </h1>
-              <div id="social-up-to-xl" className="min-[1903px]:hidden">
+              <div
+                id="HIDDEN UNTIL XXXL"
+                className="hidden  md:flex md:px-2 min-[1903px]:hidden"
+              >
                 <SocialLinks />
               </div>
               <div className="xxl:contents hidden  bg-gray-50/20 ">
@@ -137,7 +143,7 @@ export default function AboutPage() {
           </div> */}
 
                 <FadeInSection>
-                  <p className="animate-fadeIn paragraph px-2   pt-0  pb-4  lg:text-2xl ">
+                  <p className="animate-fadeIn paragraph   px-2  pt-0  pb-4  lg:text-2xl ">
                     <span style={{ fontWeight: '400' }}>
                       Soma L. Choudhury, has extensive experience as a senior
                       marketing executive with global experience in building,
@@ -152,8 +158,8 @@ export default function AboutPage() {
                       retain customers for each client.
                       {/* <Gallery /> */}
                       <div
-                        id="social-up-to-xl"
-                        className="mt-6 max-[1903px]:hidden"
+                        id="SOCIAL MEDIA HIDDEN LG & XL "
+                        className="max-[1903px]:hidden"
                       >
                         <SocialLinks />
                       </div>
@@ -183,7 +189,7 @@ export default function AboutPage() {
           grid={'grid grid-cols-4 gap-x-4 gap-y-4 py-4'}
         />
       </div>
-      <div className="md:flex-block bg-gray-50/20 px-6 md:px-14 md:pt-10  lg:px-20  xl:pr-36 min-[1620px]:hidden ">
+      <div className="md:flex-block bg-gray-50/10 px-6 md:px-14 md:pt-10  lg:px-20  xl:pr-36 min-[1620px]:hidden ">
         <div class="group relative -mt-px flex flex-none flex-col items-start  border-t border-transparent border-t-slate-400  bg-gray-100/60 px-2 pt-4  text-left md:-ml-4 md:w-[35vw] md:px-4 md:pb-6 md:pt-4 lg:w-auto">
           <h2 class="pb-4 text-2xl  md:order-first md:pb-0 lg:px-2 ">BIO</h2>
         </div>
@@ -192,7 +198,7 @@ export default function AboutPage() {
               Senior marketing executive with global experience in building,.
             </p>
           </div> */}
-        <p className="animate-fadeIn paragraph px-2   pt-0  pb-4  lg:text-2xl ">
+        <p className="animate-fadeIn paragraph px-2   pt-0  pb-4  lg:text-2xl xl:mb-44 ">
           <span style={{ fontWeight: '400' }}>
             Soma L. Choudhury, has extensive experience as a senior marketing
             executive with global experience in building, launching, and growing
