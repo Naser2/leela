@@ -90,7 +90,7 @@ export function Footer({ BG }) {
               </Link>
               <div>
                 <Link
-                  href="mailto:info@wht-wrks.com "
+                  href="mailto:inquire@leelanyc.com"
                   className="flex gap-x-4"
                   class=" shrink-0 "
                 >
@@ -103,20 +103,6 @@ export function Footer({ BG }) {
                 </Link>
               </div>
             </div>
-            {/* <QrCodeBorder className="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-cyan-500" /> */}
-            {/* <Image src={qrCode} alt="" unoptimized /> */}
-            {/* </div> */}
-            {/* <div className="ml-8 lg:w-64">
-              <p className="text-base font-semibold text-gray-900">
-                <Link href="#">
-                  <span className="absolute inset-0 sm:rounded-2xl" />
-                  Download the app
-                </Link>
-              </p>
-              <p className="mt-1 text-sm text-gray-700">
-                Scan the QR code to download the app from the App Store.
-              </p>
-            </div> */}
           </div>
         </div>
         <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">

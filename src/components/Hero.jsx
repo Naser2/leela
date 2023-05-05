@@ -731,7 +731,6 @@ const Services = () => {
                 height={1242}
                 className=" aspect-[2400/1960]  rounded-md  bg-white/5 ring-1 ring-white/10 lg:w-full xl:aspect-[1013/960]"
               />
-              {/* <img src="leela-hero-img-2"> */}
             </div>
           </div>
         </FadeInSection>
