@@ -598,7 +598,7 @@ const Contact = () => {
             <a
               key={item.name}
               href={item.href}
-              className=" text-gray-500 hover:text-sky-500 lg:text-black"
+              className="text-black hover:text-sky-500 lg:text-black"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon
