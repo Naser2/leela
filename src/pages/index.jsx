@@ -48,7 +48,6 @@ export default function Home() {
               width={2432}
               height={1242}
               className="mt-10 aspect-[1216/640] sm:rounded-3xl md:mt-0"
-              // className="aspect-[2400/1960] h-full   rounded-md  bg-white/5 ring-1 ring-white/10 lg:w-full xl:aspect-[2400/2060]"
             />
           </div>
         </div>{' '}
@@ -66,21 +65,6 @@ export default function Home() {
           <h1 className="title"> </h1>
         </div>{' '}
         <Hero />
-        {/* <div class="mx-auto mt-20 max-w-7xl px-4 sm:mt-24 sm:px-6 md:px-8 lg:mt-32 lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
-          <div
-            id="left"
-            class="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
-          >
-            LEFT{' '}
-          </div>
-
-          <div
-            id="rigth"
-            class="relative col-span-7 col-start-6 row-start-1 xl:col-span-6 xl:col-start-7"
-          >
-            RIGHT
-          </div>
-        </div> */}
       </main>
     </>
   )
