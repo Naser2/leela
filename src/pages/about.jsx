@@ -118,7 +118,7 @@ export default function AboutPage() {
                         href="mailto:info@wht-wrks.com className="
                         className="text-lg lowercase  text-blue-500 md:text-xl"
                       >
-                        info@wht-wrks.com
+                        inquiries@wleelanyc.com
                       </Link>
                     </p>
                   </div>
