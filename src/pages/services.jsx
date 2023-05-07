@@ -54,14 +54,20 @@ export default function ServicesPage() {
               </h2>
               GLOBAL PLATFORM FOCUS.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600 lg:text-2xl">
-              Marketing with global experience in building, launching, and
-              growing global renowned brands businesses for over fifteen years.
-            </p>
+            <div className=" py-0 md:px-0 ">
+              <h3
+                style={{
+                  letterSpacing: '0.1em',
+                }}
+                className="text-2 color_15 font_5  font_4 !text-left !font-extrabold "
+              >
+                Marketing. Building. Launching. Growing.
+              </h3>
+            </div>
 
             <div className="mt-10 flex items-center gap-x-6">
               <a
-                href="#detailedExpertise"
+                href="mailto:soma@leelanyc.com"
                 className=" bg-blue-500 px-3.5 py-2.5 text-xl  text-sm font-semibold text-white shadow-sm hover:bg-black hover:bg-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
               >
                 Get started
@@ -108,51 +114,68 @@ export default function ServicesPage() {
         id="detailedExpertise"
         className="max-w-9xl mx-auto bg-gray-50 px-6  py-2 sm:mt-56 sm:px-6 md:px-8 lg:mt-6  lg:px-16"
       >
-        <FadeInSection>
-          <div class=" mx-auto mt-20  px-4 sm:mt-24 lg:mt-32 lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
-            <div
-              id="left"
-              class="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
-            >
-              <div className="mx-auto max-w-2xl text-center">
-                <h2 className="text-left text-base font-semibold leading-7 text-blue-400   lg:text-xl ">
-                  Grow faster
-                </h2>
-                <h1 className="mt-2 text-left text-4xl font-bold tracking-tight text-black sm:text-6xl lg:mt-10">
-                  Everything you need to launch and develop your project.
-                </h1>
-                <p className="mt-6 text-left text-lg  leading-8 text-gray-600 lg:text-2xl lg:text-gray-600/90">
-                  <span className="pr-2 font-bold capitalize">
-                    New Business/ Brand/ Product Launches:
-                  </span>
-                  Over fifteen years of experience successfully designing,
-                  building, and launching new businesses, brands, and products.
-                  From concept to execution, bringing vision, leadership, and a
-                  deliberate/disciplined approach to new launches that result in
-                  recognition & growth.
-                </p>
-              </div>
-            </div>
-
-            <div
-              id="rigth"
-              class="relative col-span-7 col-start-6 row-start-1 mt-4 xl:col-span-6  xl:col-start-7 "
-            >
-              <img
-                src={leelaHeroImg2.src}
-                alt="App screenshot"
-                width={2432}
-                height={1242}
-                className=" aspect-[2400/1960]  rounded-md  bg-white/5 ring-1 ring-white/10 lg:w-full xl:aspect-[1013/960]"
-              />
+        <div class=" mx-auto mt-20  px-4 sm:mt-24 lg:mt-32 lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
+          <div
+            id="left"
+            class="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
+          >
+            <div className="mx-auto max-w-2xl text-center">
+              <h2 className="text-left text-base font-semibold leading-7 text-blue-400   lg:text-xl ">
+                GROW FASTER
+              </h2>
+              <FadeInSection>
+                {' '}
+                <h1 className="mt-2 text-left text-4xl !font-extrabold tracking-tight text-black sm:text-6xl lg:mt-10">
+                  Everything you need to launch and develop.
+                </h1>{' '}
+              </FadeInSection>
+              <p className="mt-6 text-left text-lg  leading-8 text-gray-600 lg:text-2xl lg:text-gray-600/90">
+                <div className=" py-0 md:px-0 ">
+                  <h3
+                    style={{
+                      letterSpacing: '0.1em',
+                    }}
+                    className="text-2 color_15 font_5 font_4 py-4 !text-left !font-extrabold "
+                  >
+                    New Business / Brand / Product Launches:
+                  </h3>
+                </div>
+                <div className="py-0 md:px-0 ">
+                  <h3
+                    style={{
+                      letterSpacing: '0.1em',
+                    }}
+                    className="text-2 color_15  font_5 font_4 !text-left"
+                  >
+                    Over fifteen years of experience successfully designing,
+                    building, and launching new businesses, brands, and
+                    products. From concept to execution, bringing vision,
+                    leadership, and a deliberate/disciplined approach to new
+                    launches that result in recognition & growth.
+                  </h3>
+                </div>
+              </p>
             </div>
           </div>
-        </FadeInSection>
 
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none lg:px-24 lg:pb-24">
+          <div
+            id="rigth"
+            class="relative col-span-7 col-start-6 row-start-1 mt-4 xl:col-span-6  xl:col-start-7 "
+          >
+            <img
+              src={leelaHeroImg2.src}
+              alt="App screenshot"
+              width={2432}
+              height={1242}
+              className=" aspect-[2400/1960]  rounded-md  bg-white/5 ring-1 ring-white/10 lg:w-full xl:aspect-[1013/960]"
+            />
+          </div>
+        </div>
+
+        <div className="mx-auto mt-16 mb-36 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none lg:px-24 lg:pb-24">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {primaryFeatures.map((feature) => (
-              <div key={feature.name} className="flex flex-col">
+              <div key={feature.name} className=" flex flex-col ">
                 <dt className="text-base font-semibold leading-7 text-black lg:text-2xl ">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-black">
                     <feature.icon
@@ -163,7 +186,15 @@ export default function ServicesPage() {
                   {feature.name}
                 </dt>
                 <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600  lg:text-lg lg:text-gray-600/90 xl:text-2xl">
-                  <p className="flex-auto">{feature.description}</p>
+                  <h3
+                    style={{
+                      letterSpacing: '0.1em',
+                    }}
+                    className="text-2 color_15  font_5 font_4 !text-left !text-slate-700"
+                  >
+                    {feature.description}
+                  </h3>
+                  {/* <p className="flex-auto">{feature.description}</p> */}
                 </dd>
               </div>
             ))}
@@ -177,7 +208,7 @@ export default function ServicesPage() {
 const expertises = [
   // {nameSOMA LISA CHOUDHURY}
 
-  { name: 'Global Marketing Executive' },
+  { name: 'Global Marketing' },
   { name: 'Brand Strategy & Development' },
   { name: 'Product Strategy & Digital Marketing Development' },
   { name: 'Social Media Strategy & Execution' },
