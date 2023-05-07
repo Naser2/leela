@@ -134,7 +134,7 @@ export default function AboutPage() {
                   <div className="contact max-w-2xl lg:mx-0 lg:max-w-xl">
                     <p className="lg:py-2">
                       <Link
-                        href="mailto:info@wht-wrks.com className="
+                        href="soma@leelanyc.com"
                         className="text-lg  hover:text-blue-500 md:text-xl"
                       >
                         SOMA@LEELANYC.COM
