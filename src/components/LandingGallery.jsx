@@ -47,13 +47,16 @@ export default function LandingGallery() {
         width={1800}
         height={1800}
       />{' '}
-      <Image
-        src={projectChain.src}
-        alt=""
-        className={clsx('pointer-events-none object-cover')}
-        width={1800}
-        height={1800}
-      />{' '}
+      <FadeInSection>
+        {' '}
+        <Image
+          src={projectChain.src}
+          alt=""
+          className={clsx('pointer-events-none object-cover')}
+          width={1800}
+          height={1800}
+        />{' '}
+      </FadeInSection>
       <Image
         src={projectXl1.src}
         alt=""
@@ -68,13 +71,16 @@ export default function LandingGallery() {
         width={1800}
         height={1800}
       />{' '}
-      <Image
-        src={project1Fancy.src}
-        alt=""
-        className={clsx('pointer-events-none object-cover')}
-        width={1800}
-        height={1800}
-      />
+      <FadeInSection>
+        {' '}
+        <Image
+          src={project1Fancy.src}
+          alt=""
+          className={clsx('pointer-events-none object-cover')}
+          width={1800}
+          height={1800}
+        />
+      </FadeInSection>
       <Image
         src={projectPapperWallet2.src}
         alt=""
@@ -82,20 +88,25 @@ export default function LandingGallery() {
         width={1800}
         height={1800}
       />{' '}
-      <Image
-        src={projectStoneJewlery.src}
-        alt=""
-        className={clsx('pointer-events-none object-cover')}
-        width={1800}
-        height={1800}
-      />{' '}
-      <Image
-        src={projectPapperWallet1.src}
-        alt=""
-        className={clsx('pointer-events-none object-cover')}
-        width={1800}
-        height={1800}
-      />
+      <FadeInSection>
+        <Image
+          src={projectStoneJewlery.src}
+          alt=""
+          className={clsx('pointer-events-none object-cover')}
+          width={1800}
+          height={1800}
+        />{' '}
+      </FadeInSection>
+      <FadeInSection>
+        {' '}
+        <Image
+          src={projectPapperWallet1.src}
+          alt=""
+          className={clsx('pointer-events-none object-cover')}
+          width={1800}
+          height={1800}
+        />
+      </FadeInSection>
       <Image
         src={projectShakti.src}
         alt=""
@@ -103,13 +114,16 @@ export default function LandingGallery() {
         width={1800}
         height={1800}
       />
-      <Image
-        src={projectSmoker.src}
-        alt=""
-        className={clsx('pointer-events-none -mt-3 object-cover')}
-        width={1800}
-        height={1800}
-      />{' '}
+      <FadeInSection>
+        {' '}
+        <Image
+          src={projectSmoker.src}
+          alt=""
+          className={clsx('pointer-events-none -mt-3 object-cover')}
+          width={1800}
+          height={1800}
+        />{' '}
+      </FadeInSection>
       <Image
         src={project3.src}
         alt=""
@@ -124,13 +138,15 @@ export default function LandingGallery() {
         width={1800}
         height={1800}
       />
-      <Image
-        src={projectSummerBoys.src}
-        alt=""
-        className={clsx('pointer-events-none object-cover')}
-        width={1800}
-        height={1800}
-      />
+      <FadeInSection>
+        <Image
+          src={projectSummerBoys.src}
+          alt=""
+          className={clsx('pointer-events-none object-cover')}
+          width={1800}
+          height={1800}
+        />
+      </FadeInSection>
       {/* <div className="galerry-XXL ">
         <Gallery
           projects={xxLprojects}

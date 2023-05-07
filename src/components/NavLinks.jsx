@@ -9,7 +9,7 @@ export function NavLinks() {
 
   return [
     ['About', '/about'],
-    ['Services', '/#services'],
+    ['Services', '/services'],
     ['Clients', '/#clients'],
     // ['Pricing', '#pricing'],
     // ['Contact', '/#contact'],

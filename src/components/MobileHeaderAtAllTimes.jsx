@@ -161,7 +161,7 @@ export function Header() {
                           <div className="space-y-4">
                             <MobileNavLink href="/about">About</MobileNavLink>
 
-                            <MobileNavLink href="/#services">
+                            <MobileNavLink href="/services">
                               Services
                             </MobileNavLink>
                             <MobileNavLink href="/#clients">

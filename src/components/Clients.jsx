@@ -256,15 +256,15 @@ export function Clients() {
     <section
       id="clients"
       aria-labelledby="reviews-title"
-      className="-mt-28 pb-16 sm:pt-12 sm:pb-24"
+      className="-mt-20 pb-16 sm:pt-12 sm:pb-24 lg:-my-10"
     >
       <Container className="px-6">
         {/* <h2 className="text-left text-base font-semibold leading-8 text-blue-400 lg:text-center  lg:text-xl ">
           Our track record
         </h2> */}
 
-        <p className="mt-2 px-6  text-left text-3xl font-bold  tracking-tight text-black sm:text-4xl lg:text-center">
-          Clients
+        <p className="my-4 px-6  text-left text-3xl font-bold  tracking-tight text-black sm:text-4xl lg:text-center">
+          CLIENTS
         </p>
 
         <div className="px-6 py-0 md:px-0 ">
@@ -272,7 +272,7 @@ export function Clients() {
             style={{
               letterSpacing: '0.1em',
             }}
-            className="!text-left lg:!text-center "
+            className="text-2 color_15 lg:font_5 font_4 !text-left lg:!text-center"
           >
             I had the priviledge to work with clients in diverse fields.
           </h3>

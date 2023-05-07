@@ -8,6 +8,7 @@ import projectXl1 from '@/images/projects-xl-1.png'
 import projectXl2 from '@/images/projects-xl-1.png'
 
 import featuredProject from '@/images/leela-hero-img-3.png'
+import FadeInSection from './FadeInSection'
 export const SectionHero = () => {
   return (
     <section id="comp-jwuch32x" className=" -mt-20 lg:mt-24  lg:py-10 ">
@@ -139,14 +140,31 @@ const SiteTitle = () => {
                   {/* <span className="color_15  site-title">Service</span> */}
                 </span>
               </span>
-              <h3
-                style={{
-                  letterSpacing: '0.1em',
-                }}
-                className="mt-2 md:px-2 "
-              >
-                Branding & Product Strategy. Digital Marketing Development.
-              </h3>
+              <div className="inline-flex">
+                <span>
+                  <h3
+                    style={{
+                      letterSpacing: '0.1em',
+                    }}
+                    className="mt-2 md:px-2 "
+                  >
+                    <FadeInSection>
+                      Branding & Product Strategy.
+                      <span>
+                        {/* <h3
+                        style={{
+                          letterSpacing: '0.1em',
+                        }}
+                        className="md:px-2 "
+                      > */}
+                        Digital
+                        {/* </h3> */}
+                      </span>
+                    </FadeInSection>
+                  </h3>{' '}
+                  <span className="lg:ml-2"> Marketing Development.</span>
+                </span>
+              </div>
             </span>
           </span>{' '}
         </span>

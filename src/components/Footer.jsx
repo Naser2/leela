@@ -8,7 +8,7 @@ import { Logo, Logomark } from '@/components/Logo'
 import { FooterNavLinks } from '@/components/NavLinks'
 import qrCode from '@/images/qr-code.svg'
 import clsx from 'clsx'
-import { Links } from './socialLinks'
+import { Links, SocialLinks } from './socialLinks'
 
 function QrCodeBorder(props) {
   return (
@@ -24,9 +24,19 @@ function QrCodeBorder(props) {
 
 export function Footer({ BG }) {
   return (
-    <footer className={clsx(BG && BG, 'border-t border-gray-200 bg-slate-50 ')}>
-      <div id="link" className="flex items-center justify-center px-6">
-        <Links />
+    <footer
+      className={clsx(
+        BG && BG,
+        'border-t border-gray-200 bg-slate-50 lg:pt-14 '
+      )}
+    >
+      <div
+        id="link"
+        className="flex items-center justify-center py-6 lg:hidden lg:px-6"
+      >
+        <SocialLinks
+          color={'text-black relative z-10 text-xl text-center px-3 '}
+        />
       </div>
       <div>
         <div className="mx-auto -mt-24 flex max-w-7xl flex-col items-start justify-between gap-y-12  overflow-hidden  px-6 px-4 pb-6 sm:px-6 lg:flex-row lg:items-center lg:py-16 lg:px-8">
@@ -47,7 +57,7 @@ export function Footer({ BG }) {
             </div>
           </div>
           <nav className="inline-flex hidden justify-center gap-8  px-[5%] lg:mt-11  lg:flex">
-            <FooterNavLinks
+            <SocialLinks
               color={'text-black relative z-10 text-xl text-center px-3 '}
             />
           </nav>
@@ -76,7 +86,7 @@ export function Footer({ BG }) {
               <span className="lg:hidden">Newsletter</span>
             </Button>
           </form> */}
-          <div className="mx-auto flex max-w-7xl items-center px-4 text-gray-900 sm:px-6 lg:px-8">
+          <div className="mx-auto flex max-w-7xl items-center px-4 text-gray-900 sm:px-6 lg:py-6 lg:px-8">
             {' '}
             <p className="mt-6 justify-center text-sm text-gray-500 md:mt-0 lg:text-xl ">
               Leela &copy; Copyright {new Date().getFullYear()}. All rights

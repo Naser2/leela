@@ -113,7 +113,7 @@ export const Links = () => {
         ['Instagram', '/about'],
         ['LinkedIn', '/#services'],
         ['Facebook', '/#services'],
-        // ['Reviews', '#reviews'],
+        ['Twitter', '  https://twitter.com/thisissoma'],
         // ['Pricing', '#pricing'],
         // ['Contact', '#contact'],
       ].map(([label, href], index) => (
