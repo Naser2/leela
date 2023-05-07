@@ -23,7 +23,7 @@ import { Container } from './Container'
 
 export default function About() {
   return (
-    <div className="relative mb-0 mt-24 py-6 lg:py-4 ">
+    <div className="relative mb-0 mt-4 px-4 py-6 lg:mt-24 lg:px-0 lg:py-4 ">
       <div className="max-w-8xl  mx-6 mx-auto px-4 sm:px-6 lg:mx-16 lg:px-8">
         <div classNAme="mx-auto pb-4  text-center  ">
           <span class="pb-4">
@@ -51,7 +51,7 @@ export default function About() {
       </div>
 
       <div className="max-w-8xl  mx-auto sm:mt-16 lg:px-8">
-        <div className="relative overflow-hidden px-4 py-20 shadow-xl sm:px-10 sm:py-24 md:px-12 lg:px-[3.4rem]">
+        <div className="relative overflow-hidden px-0 py-20 shadow-xl sm:px-10 sm:py-24 md:px-12 lg:px-[3.4rem]">
           {/* <img
             className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
             src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"
