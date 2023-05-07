@@ -19,39 +19,115 @@ import projectXl2 from '@/images/projects-xl-1.png'
 import clsx from 'clsx'
 import FadeInSection from './FadeInSection'
 import Image from 'next/image'
+import { Container } from './Container'
 
 export default function About() {
   return (
-    <div className="relative -mt-10 mb-0 py-6 lg:py-4">
-      {/* <div class="mx-auto max-w-3xl text-center">
-        <span class="md:px-0">
-          <h2 class="" style={{ letterSpacing: '0.1em' }}>
-            ABOUT
-          </h2>
-        </span>
-      </div> */}
+    <div className="relative mb-0 mt-24 py-6 lg:py-4 ">
+      <div className="max-w-8xl  mx-6 mx-auto px-4 sm:px-6 lg:mx-16 lg:px-8">
+        <div classNAme="mx-auto pb-4  text-center  ">
+          <span class="pb-4">
+            <h2
+              className="text-left text-2xl font-extrabold "
+              style={{ letterSpacing: '0.1em' }}
+            >
+              ABOUT
+            </h2>
+          </span>
+        </div>
+        <p className="text-2 font_4 !text-black ">
+          <span className="lg:inline-flex">
+            <div className="mt-[0.6rem] inline-flex">
+              <span>
+                <h3 style={{ letterSpacing: '0.1em' }}>
+                  <FadeInSection>
+                    Introducing Leela, the marketing consultancy
+                  </FadeInSection>
+                </h3>
+              </span>
+            </div>
+          </span>
+        </p>
+      </div>
 
-      <div class="lg:mt-0 lg:px-4  ">
-        <div class="row mt-2  ">
-          <div class="col-12">
-            <img
-              src={somaAbout.src}
-              alt="App screenshot"
-              width={1832}
-              height={1242}
-              className="about-banner maspect-[552/640] mt-10 object-cover object-center  md:mt-0"
-              // className="aspect-[2400/1960] h-full   rounded-md  bg-white/5 ring-1 ring-white/10 lg:w-full xl:aspect-[2400/2060]"
+      <div className="max-w-8xl  mx-auto sm:mt-16 lg:px-8">
+        <div className="relative overflow-hidden px-4 py-20 shadow-xl sm:px-10 sm:py-24 md:px-12 lg:px-[3.4rem]">
+          {/* <img
+            className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
+            src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"
+            alt=""
+          /> */}
+          {/* <div className="absolute inset-0 bg-gray-900/90 mix-blend-multiply" /> */}
+          {/* <div
+            className="absolute -left-80 -top-56 transform-gpu blur-3xl"
+            aria-hidden="true"
+          >
+            // <div
+            //   className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-[0.45]"
+            //   style={{
+            //     clipPath:
+            //       'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+            //   }}
+            // />
+          </div> */}
+          <div
+            className="hidden md:absolute md:bottom-16 md:left-[50rem] md:block md:transform-gpu md:blur-3xl"
+            aria-hidden="true"
+          >
+            <div
+              className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-25"
+              style={{
+                clipPath:
+                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              }}
             />
-            {/* <div class="hero-content-inner">
-              <div class="left-content">
-                <h4 class="hero-subheading">Let&apos;s Meet</h4>
-                <h1 class="hero-heading">Soma Choudhury</h1>{' '}
-              </div>
-              <div class="right-content"></div>
-            </div> */}
           </div>
-        </div>{' '}
-        <div className="animate-fadeIn team-member-details group absolute bottom-10 w-[50%] bg-slate-100/80 px-6 pt-6 pb-6 min-[600px]:hidden lg:bottom-20 lg:bg-slate-100/90 lg:py-0   lg:pl-14 min-[1400px]:px-14 min-[1600px]:px-24">
+          <div className="max-w-8xl relative mx-auto -mt-14 px-6 lg:mx-0  lg:px-0 ">
+            {/* <img
+              className="h-12 w-auto"
+              src="https://tailwindui.com/img/logos/workcation-logo-white.svg"
+              alt=""
+            /> */}
+            <figure>
+              <p className="animate-fadeIn paragraph  text-sm lg:text-2xl">
+                <span style={{ letterSpacing: '0.1em' }} className="">
+                  &quot;Leela is committed to transforming your brand and
+                  elevating your product strategy. With a team of experts in
+                  branding, product development, and digital marketing. Soma L.
+                  Choudhury is the founder of Leela and has extenssive
+                  experience in helping businesses achoive their objectives. She
+                  understands that every brand is unique and requires a
+                  customized approach to stand out in today&apos;s crowded
+                  market. That&apos;s why Soma and her team of specialists will
+                  work with you to create a tailored strategy that will enhance
+                  your brand&apos;s identity, improve your product offering, and
+                  connect with your target audience. Leela &apos; mission is to
+                  deliver measurable results that exceed your expectations and
+                  provide you with a competitive edge. With Soma as Brand
+                  Director & Senior marketing executive experience, you&apos;re
+                  set to unleash your brand&apos;s full potential.&quot;
+                </span>
+              </p>
+              <div id="about-cta" className="mt-14 mb-1 ">
+                <Link
+                  href="/about"
+                  className="!css-n6s3hr  !bg-black px-3 !px-4 !py-3  uppercase text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 group-hover:!bg-blue-500"
+                >
+                  Read more <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+
+              <figcaption className="mt-6 text-base text-white">
+                <div className="font-semibold">Judith Black</div>
+                <div className="mt-1">CEO of Tuple</div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      {/* <div class="lg:mt-0 lg:px-4  ">
+        <div className="animate-fadeIn team-member-details group relative  w-[100%] bg-slate-100/80 px-6 pt-6 pb-6 min-[600px]:hidden lg:bottom-20 lg:bg-slate-100/90 lg:py-0   lg:pl-14 min-[1400px]:px-14 min-[1600px]:px-24">
           <FadeInSection>
             <div class="mx-auto max-w-3xl pb-2  text-center ">
               <span class=" ">
@@ -63,28 +139,24 @@ export default function About() {
                 </h2>
               </span>
             </div>
-            {/* <h1 class="member-name !mt-1 !mb-0 pb-3 !text-lg ">
-              <span>Soma Lisa </span>
-            </h1>
-            <h1 class="member-name !-mt-5 !mb-0 pb-3 !text-lg ">
-              <span></span>
-            </h1> */}
           </FadeInSection>
-          {/* <h1 class="mt-2 mt-10 px-6 text-left text-4xl font-bold tracking-tight text-black sm:text-6xl ">
-          THE FOUNDER.
-        </h1> */}
+
           <p className="animate-fadeIn paragraph  text-sm lg:text-2xl">
             <span>
-              {' '}
-              <FadeInSection>
-                {/* <h1 className="member-name  !mt-1 !mb-0 pb-2 !text-lg ">
-                  Soma L. Choudhury
-                </h1>{' '} */}
-              </FadeInSection>
-              Experienced as a senior marketing executive, Soma has a global
-              experience in building, launching, and growing businesses, brands,
-              and products. Soma brings years of experience leading, managing
-              and cultivating ..
+              <FadeInSection></FadeInSection>
+              &quot;Introducing Leela, the marketing consultancy that is
+              committed to transforming your brand and elevating your product
+              strategy. With a team of experts in branding, product development,
+              and digital marketing, Leela is the partner you need to achieve
+              your business objectives. We understand that every brand is unique
+              and requires a customized approach to stand out in today&apos;s
+              crowded market. That&apos;s why our team of specialists will work
+              with you to create a tailored strategy that will enhance your
+              brand&apos;s identity, improve your product offering, and connect
+              with your target audience. Our mission is to deliver measurable
+              results that exceed your expectations and provide you with a
+              competitive edge. Let Leela guide you to success and help you
+              unleash your brand&apos;s full potential.&quot;
             </span>
           </p>
           <div id="about-cta" className="mt-4 mb-1 ">
@@ -96,18 +168,15 @@ export default function About() {
             </Link>
           </div>
         </div>
-        <div className="animate-fadeIn team-member-details  absolute bottom-4 w-[50%] bg-slate-100/80 px-6 py-6 max-[600px]:hidden lg:bottom-20 lg:bg-slate-100/90 lg:py-0   lg:pl-14 min-[1400px]:px-14 min-[1600px]:px-24">
+        <div className="animate-fadeIn team-member-details   bg-slate-100/80 px-6 py-6 max-[600px]:hidden lg:bg-slate-100/90 lg:py-0 lg:pl-14 min-[1400px]:px-14 min-[1600px]:px-24">
           <FadeInSection>
             {' '}
             <h1 class="member-name !mb-4 pb-3 ">
               <span>Soma Lisa Choudhury</span>
             </h1>
           </FadeInSection>
-          {/* <h1 class="mt-2 mt-10 px-6 text-left text-4xl font-bold tracking-tight text-black sm:text-6xl ">
-          THE FOUNDER.
-        </h1> */}
+
           <p className="animate-fadeIn paragraph text-sm lg:text-2xl">
-            {/* style={{ fontWeight: '400' }} */}
             <span>
               Soma L. Choudhury, has extensive experience as a senior marketing
               executive with global experience in building, launching, and
@@ -126,7 +195,7 @@ export default function About() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

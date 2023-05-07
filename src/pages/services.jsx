@@ -45,27 +45,27 @@ export default function ServicesPage() {
   return (
     <>
       <div id="services" className="relative isolate mt-4">
-        <div className="max-w-9xl mx-auto items-center  justify-center bg-gray-50/50 px-6 px-6  pt-10 pb-24 pt-2 sm:pb-40 md:px-14 lg:flex">
+        <div className="max-w-9xl mx-auto items-center  justify-center bg-gray-50/50 px-6   pt-10 pb-24 pt-2 sm:pb-40 md:px-14 lg:flex">
           <motion.div animate={{ x: 100 }} transition={{ delay: 1 }} />{' '}
           <div className="flex-shrink-1 mx-auto mt-4 max-w-2xl lg:mx-0 lg:max-w-xl lg:pt-8 ">
-            <h1 className="text-4xl font-bold tracking-tight text-black sm:text-6xl  lg:mt-10">
-              <h2 class="text-base font-semibold leading-7 text-blue-400 lg:text-xl ">
+            <h1 className="text-2xl tracking-tight text-black sm:text-3xl lg:mt-10">
+              <h2 class="pb-1 text-base  font-semibold lowercase capitalize leading-7  text-blue-400 lg:pb-4  lg:text-xl  ">
                 Services
               </h2>
               GLOBAL PLATFORM FOCUS.
             </h1>
-            <div className=" py-0 md:px-0 ">
+            <div className="mt-4  md:-mt-4">
               <h3
                 style={{
                   letterSpacing: '0.1em',
                 }}
-                className="text-2 color_15 font_5  font_4 !text-left !font-extrabold "
+                className="text-2 color_15 font_5  font_4 !text-left"
               >
-                Marketing. Building. Launching. Growing.
+                Marketing. Building. Lauching. Growing.
               </h3>
             </div>
 
-            <div className="mt-10 flex items-center gap-x-6">
+            <div className="mt-8 flex items-center gap-x-6 lg:mt-14">
               <a
                 href="mailto:soma@leelanyc.com"
                 className=" bg-blue-500 px-3.5 py-2.5 text-xl  text-sm font-semibold text-white shadow-sm hover:bg-black hover:bg-black  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
@@ -91,15 +91,15 @@ export default function ServicesPage() {
                       <a
                         href="#detailedExpertise"
                         key={expertise.name}
-                        className="pointer-events-auto relative z-10 flex items-center justify-center bg-white p-6 text-[0.8125rem] text-sm font-medium leading-5 text-gray-700 shadow-xl shadow-black/5 ring-2 ring-black 
+                        className="pointer-events-auto relative z-10 flex items-center justify-center bg-white px-6 py-4  text-[0.8125rem] text-sm font-medium leading-5 text-gray-700 shadow-xl shadow-black/5 ring-2 ring-black 
                               duration-200 ease-out hover:bg-slate-50 hover:text-gray-800 hover:transition-colors lg:w-[23rem] "
                       >
-                        <h1
+                        <h2
                           // href="#detailedExpertise"
-                          className="flex justify-center  text-center text-xl font-semibold leading-7 text-black  lg:text-2xl"
+                          className="flex justify-center  text-center text-lg  leading-7 text-black  lg:text-2xl"
                         >
                           {expertise.name}
-                        </h1>
+                        </h2>
                       </a>
                       // </motion.li>
                     )
@@ -112,24 +112,24 @@ export default function ServicesPage() {
       </div>
       <div
         id="detailedExpertise"
-        className="max-w-9xl mx-auto bg-gray-50 px-6  py-2 sm:mt-56 sm:px-6 md:px-8 lg:mt-6  lg:px-16"
+        className="max-w-9xl mx-auto mt-10 bg-gray-50 px-8 py-2 sm:mt-24  sm:mt-56 sm:px-6 md:px-8 lg:mt-3 lg:mt-6  lg:px-16"
       >
-        <div class=" mx-auto mt-20  px-4 sm:mt-24 lg:mt-32 lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
+        <div class=" mx-auto    lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
           <div
             id="left"
             class="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
           >
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-left text-base font-semibold leading-7 text-blue-400   lg:text-xl ">
-                GROW FASTER
+                Expertise
               </h2>
               <FadeInSection>
                 {' '}
-                <h1 className="mt-2 text-left text-4xl !font-extrabold tracking-tight text-black sm:text-6xl lg:mt-10">
+                <h1 className="mb-4 !text-left text-4xl tracking-tight text-black sm:text-2xl lg:mt-10">
                   Everything you need to launch and develop.
                 </h1>{' '}
               </FadeInSection>
-              <p className="mt-6 text-left text-lg  leading-8 text-gray-600 lg:text-2xl lg:text-gray-600/90">
+              <p className="mt-6 pb-4 text-left text-lg  leading-8 text-gray-600 lg:text-2xl lg:text-gray-600/90">
                 <div className=" py-0 md:px-0 ">
                   <h3
                     style={{
@@ -137,7 +137,10 @@ export default function ServicesPage() {
                     }}
                     className="text-2 color_15 font_5 font_4 py-4 !text-left !font-extrabold "
                   >
-                    New Business / Brand / Product Launches:
+                    NEW BUSINESS <span className="text-blue-400">|</span> BRAND
+                    <span className="px-2 text-blue-400  ">|</span> PRODUCT{' '}
+                    <span className="px-2 text-blue-400 ">|</span>
+                    LAUNCHES:
                   </h3>
                 </div>
                 <div className="py-0 md:px-0 ">
@@ -145,7 +148,7 @@ export default function ServicesPage() {
                     style={{
                       letterSpacing: '0.1em',
                     }}
-                    className="text-2 color_15  font_5 font_4 !text-left"
+                    className="text-2 color_15 font_5 font_4 !text-left"
                   >
                     Over fifteen years of experience successfully designing,
                     building, and launching new businesses, brands, and
@@ -176,7 +179,7 @@ export default function ServicesPage() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {primaryFeatures.map((feature) => (
               <div key={feature.name} className=" flex flex-col ">
-                <dt className="text-base font-semibold leading-7 text-black lg:text-2xl ">
+                <dt className="text-base font-semibold uppercase leading-7 text-black lg:text-2xl ">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-black">
                     <feature.icon
                       className="h-6 w-6 text-white"
@@ -185,7 +188,7 @@ export default function ServicesPage() {
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600  lg:text-lg lg:text-gray-600/90 xl:text-2xl">
+                <dd className="mt-3 flex flex-auto flex-col text-base leading-7 text-gray-600 md:mt-6  lg:text-lg lg:text-gray-600/90 xl:text-2xl">
                   <h3
                     style={{
                       letterSpacing: '0.1em',

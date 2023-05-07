@@ -42,7 +42,7 @@ export default function Home() {
       <main className="overflow-hidden lg:mx-14 xl:px-24 ">
         <SectionHero />
         <About />
-        <LandingGallery />
+        {/* <LandingGallery /> */}
         <Clients />
         {/* <Contact /> */}
       </main>

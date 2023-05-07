@@ -10,6 +10,7 @@ import {
 } from 'framer-motion'
 
 import { Container } from '@/components/Container'
+import FadeInSection from './FadeInSection'
 
 const reviews = [
   {
@@ -142,7 +143,7 @@ function Review({ title, className, ...props }) {
       <blockquote className="text-gray-900">
         {/* <StarRating rating={rating} /> */}
         {/* <p className="mt-4 text-lg font-semibold leading-6 before:content-['“'] after:content-['”']"> */}
-        <p className="order-first text-3xl font-semibold tracking-tight">
+        <p className="order-first  text-xl font-semibold  tracking-tight lg:text-3xl">
           {title}
         </p>
         {/* <p className="mt-3 text-base leading-7">{body}</p> */}
@@ -215,7 +216,7 @@ function ReviewGrid() {
   return (
     <div
       ref={containerRef}
-      className="relative -mx-4 mt-16 grid h-[49rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-4 sm:mt-20 md:grid-cols-2 lg:grid-cols-3"
+      className="relative -mx-4  mt-16 grid h-[49rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-10  sm:mt-20 md:grid-cols-2 lg:grid-cols-3"
     >
       {isInView && (
         <>
@@ -256,30 +257,41 @@ export function Clients() {
     <section
       id="clients"
       aria-labelledby="reviews-title"
-      className="-mt-20 pb-16 sm:pt-12 sm:pb-24 lg:-my-10"
+      className="py-16  sm:pt-44 sm:pb-24 lg:my-10"
     >
-      <Container className="px-6">
-        {/* <h2 className="text-left text-base font-semibold leading-8 text-blue-400 lg:text-center  lg:text-xl ">
+      {/* <Container className="px-6"> */}
+      {/* <h2 className="text-left text-base font-semibold leading-8 text-blue-400 lg:text-center  lg:text-xl ">
           Our track record
         </h2> */}
 
-        <p className="my-4 px-6  text-left text-3xl font-bold  tracking-tight text-black sm:text-4xl lg:text-center">
-          CLIENTS
-        </p>
-
-        <div className="px-6 py-0 md:px-0 ">
-          <h3
-            style={{
-              letterSpacing: '0.1em',
-            }}
-            className="text-2 color_15 lg:font_5 font_4 !text-left lg:!text-center"
-          >
-            I had the priviledge to work with clients in diverse fields.
-          </h3>
+      <div className="max-w-8xl  mx-6 mx-auto px-4 sm:px-6 lg:mx-16 lg:pb-24  ">
+        <div classNAme="mx-auto pb-4  text-center  ">
+          <span class=" pb-4 ">
+            <h2
+              className="text-left text-2xl font-extrabold "
+              style={{ letterSpacing: '0.1em' }}
+            >
+              CLIENTS
+            </h2>
+          </span>
         </div>
+        <p className="text-2 font_4 subtitle-color ">
+          <span className="lg:inline-flex">
+            <div className="mt-[0.6rem] inline-flex">
+              <span>
+                <h3 style={{ letterSpacing: '0.1em' }}>
+                  <FadeInSection>
+                    I had the priviledge to work with clients in diverse fields.
+                  </FadeInSection>
+                </h3>
+              </span>
+            </div>
+          </span>
+        </p>
+      </div>
 
-        <ReviewGrid />
-      </Container>
+      <ReviewGrid />
+      {/* </Container> */}
     </section>
   )
 }

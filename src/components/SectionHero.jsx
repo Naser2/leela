@@ -6,7 +6,7 @@ import project3 from '@/images/projects-3.png'
 import project4 from '@/images/projects-4.png'
 import projectXl1 from '@/images/projects-xl-1.png'
 import projectXl2 from '@/images/projects-xl-1.png'
-
+import LeelaPlaceHoderMain from '@/images/Leela_placehoder-1.png'
 import featuredProject from '@/images/leela-hero-img-3.png'
 import FadeInSection from './FadeInSection'
 export const SectionHero = () => {
@@ -30,7 +30,7 @@ export const SectionHero = () => {
             data-hook="bgLayers"
             // className="MW5IWV"
           ></div>
-          <div className="mx-6 lg:mx-0">
+          <div className="md:mx-6 lg:mx-0">
             <div className="-pt-34">
               <div
                 id="SITE-TITLE"
@@ -50,25 +50,26 @@ export const SectionHero = () => {
                 <SiteTitle />
               </div>
 
-              <div className="items-center justify-center gap-y-2 gap-x-4 md:grid md:grid-cols-10 lg:gap-x-8 xl:gap-x-20">
-                <div id="DESKTOP-SITE-TITLE" className="max-[600px]:hidden">
+              <div className="items-center justify-center gap-y-2 gap-x-4 md:grid md:grid-cols-9 lg:gap-x-8 xl:gap-x-20">
+                <div
+                  id="DESKTOP-SITE-TITLE"
+                  className="cols-span-6 col-start-1 max-[600px]:hidden"
+                >
                   <SiteTitle />
                 </div>
                 <div
-                  className="MazNVa comp-l94l2olh wixui-image col-start-5 col-end-11"
+                  className="opacicy-1 z-20 col-start-5 col-end-10 bg-blue-600"
                   title="leela-main-img"
                 >
-                  <div data-testid="linkElement" className="j7pOnl">
-                    <wow-image
-                      classNameName="HlRz5e BI8PVQ"
-                      data-src="https://static.wixstatic.com/media/0b26de_437bf79c97c946229654539a5e2eeaa1~mv2.jpeg/v1/crop/x_260,y_0,w_838,h_846/fill/w_838,h_846,al_c,q_85,enc_auto/0b26de_437bf79c97c946229654539a5e2eeaa1~mv2.jpeg"
-                    >
+                  <div data-testid="linkElement relative " className="j7pOnl ">
+                    <div className="HlRz5e BI8PVQ">
                       <img
-                        src={leelaMainTemporary1.src}
+                        className="z-10"
+                        src={LeelaPlaceHoderMain.src}
                         alt=""
                         fetchpriority="high"
                       />
-                    </wow-image>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -80,93 +81,34 @@ export const SectionHero = () => {
   )
 }
 
-// GRID THREE IMAGE
-;<div className="gap-y-2 gap-x-2 md:grid md:grid-cols-2">
-  <div className="gid relative grid-cols-1 gap-x-2 ">
-    {/* <div className="h-[4rem] " title="leela-main-img"> */}
-    <div class=" w-full max-w-2xl xl:-mb-8 xl:flex-none">
-      <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-        <img
-          className="aspect-[2/1] w-full bg-gray-800 object-cover shadow-2xl"
-          src={`${project2.src}`}
-          alt=""
-        />
-      </div>
-    </div>
-    {/* </div>{' '} */}
-    <div class="mt-14 h-full w-full max-w-2xl xl:-mb-8 xl:flex-none">
-      <div class="relative aspect-[1/2] h-full xl:mx-0 xl:aspect-auto">
-        <img
-          className="aspect-[5/5] w-full bg-gray-800 object-cover shadow-2xl"
-          src={`${projectXl2.src}`}
-          alt=""
-        />
-      </div>
-    </div>
-  </div>
-  <div className="MazNVa comp-l94l2olh wixui-image" title="leela-main-img">
-    <div data-testid="linkElement" className="j7pOnl">
-      <wow-image
-        classNameName="HlRz5e BI8PVQ"
-        data-src="https://static.wixstatic.com/media/0b26de_437bf79c97c946229654539a5e2eeaa1~mv2.jpeg/v1/crop/x_260,y_0,w_838,h_846/fill/w_838,h_846,al_c,q_85,enc_auto/0b26de_437bf79c97c946229654539a5e2eeaa1~mv2.jpeg"
-      >
-        <img src={leelaMain.src} alt="" fetchpriority="high" />
-      </wow-image>
-    </div>
-  </div>
-</div>
+// GRID THREE IMAGE - removed
 
 const SiteTitle = () => {
   return (
-    <div className=" pl-3  lg:-mt-10 lg:px-0">
-      <h1 className="lg:font_4">
-        <span style={{ fontSize: '36px', lineHeight: '1.05em' }}>
-          <span className="md:px-0 lg:px-2">
-            <span className="color_15  site-title">MARKETING </span>
-          </span>
-        </span>
+    <div className=" pl-3 lg:-mt-10 lg:px-0 xl:ml-24 ">
+      <h1 style={{ lineHeight: '1.05em' }} className="color_15 !-pb-8 ">
+        <span className="color_15">MARKETING CONSULTANCY </span>
+        {/* <span className="color_15 mt-4 ">CONSULTANCY </span> */}
       </h1>
-      <p className="text-2 font_4 -mt-4  lg:-mt-4 lg:-mt-0 ">
-        <span
-          style={{
-            fontFamily: 'poppins-extralight, poppins, sans-serif',
-          }}
-        >
-          <span className="color_15 lg:font_5 lg:inline-flex">
-            <span className="md:px-0">
-              <span style={{ fontSize: '36px', lineHeight: '1.05em' }}>
-                <span className="md:px-0 lg:px-2">
-                  <span className="color_15  site-title">CONSULTANCY</span>
-                  {/* <span className="color_15  site-title">Service</span> */}
-                </span>
-              </span>
-              <div className="inline-flex">
-                <span>
-                  <h3
-                    style={{
-                      letterSpacing: '0.1em',
-                    }}
-                    className="mt-2 md:px-2 "
-                  >
-                    <FadeInSection>
-                      Branding & Product Strategy.
-                      <span>
-                        {/* <h3
-                        style={{
-                          letterSpacing: '0.1em',
-                        }}
-                        className="md:px-2 "
-                      > */}
-                        Digital
-                        {/* </h3> */}
-                      </span>
-                    </FadeInSection>
-                  </h3>{' '}
-                  <span className="lg:ml-2"> Marketing Development.</span>
-                </span>
-              </div>
+
+      <p className="text-2 font_4 subtitle-color -mb-4 mt-1  lg:-mt-4 lg:-mt-0 ">
+        <span className="lg:inline-flex">
+          <div className="mt-[0.6rem] inline-flex">
+            <span>
+              <h3
+                style={{
+                  letterSpacing: '0.1em',
+                }}
+              >
+                <FadeInSection>
+                  Branding & Product Strategy.
+                  <span>Digital</span>
+                  Marketing Development.
+                </FadeInSection>
+              </h3>
+              {/* <span className="lg:ml-2"> Marketing Development.</span> */}
             </span>
-          </span>{' '}
+          </div>
         </span>
       </p>
     </div>
