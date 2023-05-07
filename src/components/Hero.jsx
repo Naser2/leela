@@ -544,7 +544,7 @@ export function Hero() {
 const expertises = [
   // {nameSOMA LISA CHOUDHURY}
 
-  { name: 'Global Marketing Executive' },
+  { name: 'Global Marketing' },
   { name: 'Brand Strategy & Development' },
   { name: 'Product Strategy & Digital Marketing Development' },
   { name: 'Social Media Strategy & Execution' },
