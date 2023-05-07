@@ -39,18 +39,17 @@ export function Footer({ BG }) {
         />
       </div>
       <div>
-        <div className="mx-auto -mt-24 flex max-w-7xl flex-col items-start justify-between gap-y-12  overflow-hidden  px-6 px-4 pb-6 sm:px-6 lg:flex-row lg:items-center lg:py-16 lg:px-8">
+        <div className="mx-auto -mt-24 flex max-w-7xl  items-start justify-between gap-y-12 overflow-hidden  px-6  px-4 pb-6 sm:px-6 lg:flex-row lg:flex-col lg:items-center lg:px-8 lg:pb-10  lg:pt-0">
           <div>
-            <div className="mx-auto flex max-w-7xl items-center px-4 text-gray-900 sm:px-6 lg:px-8">
-              {/* <Logomark className="h-10 w-10 flex-none fill-cyan-500" /> */}
+            <div className="mx-auto  flex max-w-7xl items-center px-4 text-gray-900 sm:px-6 md:hidden lg:px-8">
               <div className="ml-4">
                 <div
                   href="/"
-                  className="font-semibold text-black hover:text-blue-500 lg:ml-20 lg:text-2xl "
+                  className="font-semibold text-black hover:text-blue-500  lg:ml-20 lg:text-2xl "
                 >
                   <Logo />
                 </div>
-                <p className="-mt-4 text-sm lg:text-xl ">
+                <p className="-mt-4 text-sm  lg:text-xl ">
                   Building brands since 1998
                 </p>
               </div>
@@ -68,26 +67,8 @@ export function Footer({ BG }) {
               color={'text-black relative z-10 text-xl text-center px-2 '}
             />
           </nav>
-          {/* <form className="flex w-full justify-center md:w-auto">
-            <TextField
-              type="email"
-              aria-label="Email address"
-              placeholder="Email address"
-              autoComplete="email"
-              required
-              className="w-60 min-w-0 shrink"
-            />
-            <Button
-              type="submit"
-              color="black"
-              className="ml-4 flex-none bg-black text-white  hover:bg-black "
-            >
-              <span className="hidden lg:inline"> Newsletter</span>
-              <span className="lg:hidden">Newsletter</span>
-            </Button>
-          </form> */}
+
           <div className="mx-auto flex max-w-7xl items-center px-4 text-gray-900 sm:px-6 lg:py-6 lg:px-8">
-            {' '}
             <p className="mt-6 justify-center text-sm text-gray-500 md:mt-0 lg:text-xl ">
               Leela &copy; Copyright {new Date().getFullYear()}. All rights
               reserved.
