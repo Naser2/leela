@@ -118,7 +118,7 @@ export function Header() {
             >
               <Logo />
             </Link>
-            <div className="mx-[40%] hidden items-center justify-center lg:flex lg:gap-10">
+            <div className="mx-[20%] hidden items-center justify-center lg:flex lg:gap-10">
               <NavLinks />
             </div>
           </div>

@@ -33,7 +33,7 @@ export function Logo(props) {
       // viewBox="0 0 534.000000 83.000000"
       viewBox="0 0 20 160"
       // className="mt-6 h-[41.5000000pt] w-[267.000000pt] lg:mt-10 lg:h-[83.000000pt] lg:w-[534.000000pt]"
-      className="mt-20 -ml-44 h-[41.5000000pt] w-[267.000000pt] underline md:mt-6 lg:-ml-64"
+      className="mt-20 -ml-44 h-[41.5000000pt] w-[267.000000pt] underline md:mt-6 "
       preserveAspectRatio="xMidYMid meet"
     >
       <g
