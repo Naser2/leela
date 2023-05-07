@@ -117,7 +117,7 @@ export const SectionHero = () => {
 
 const SiteTitle = () => {
   return (
-    <div className=" pl-3  lg:mt-10 lg:px-0">
+    <div className=" pl-3  lg:-mt-10 lg:px-0">
       <h1 className="lg:font_4">
         <span style={{ fontSize: '36px', lineHeight: '1.05em' }}>
           <span className="md:px-0 lg:px-2">
