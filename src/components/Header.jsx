@@ -109,7 +109,7 @@ export function Header() {
   return (
     <header className="">
       <nav>
-        <div className="mx-none  lg:px-26 relative z-50 mx-auto flex  max-w-7xl  justify-between px-4 px-8 py-4 sm:px-6  sm:px-6">
+        <div className=" lg:px-26 relative z-50 mx-auto flex  max-w-7xl  justify-between px-4 px-8 py-4 sm:px-6  sm:px-6">
           <div className="a9Lpus relative z-10 flex items-center gap-16">
             <Link
               href="/"
@@ -159,7 +159,7 @@ export function Header() {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
+                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-24 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4 px-2">
                             <MobileNavLink href="/">Home</MobileNavLink>
@@ -168,15 +168,12 @@ export function Header() {
                             <MobileNavLink href="/services">
                               Services
                             </MobileNavLink>
-                            <MobileNavLink href="/portfolio">
-                              Portfolio
-                            </MobileNavLink>
                             <MobileNavLink href="/#clients">
                               Clients
                             </MobileNavLink>
-                          </div>
-                          <div className="mt-8 flex flex-col gap-4 ">
-                            <Button href="/#contact">Contact</Button>
+                            <MobileNavLink href="/contact">
+                              Contact
+                            </MobileNavLink>
                           </div>
                         </Popover.Panel>
                       </>
@@ -189,12 +186,6 @@ export function Header() {
               Log in
             </Button> */}
             {/* <DesktopMenuIcon /> */}
-            <Link
-              href="/#contact"
-              className="text-2  justify-center py-2 px-4  text-center !text-black  hover:bg-gray-900/50 hover:!text-white active:text-black  max-[700px]:hidden  sm:bg-white "
-            >
-              CONTACT
-            </Link>
           </div>
         </div>
       </nav>
