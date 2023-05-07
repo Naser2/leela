@@ -770,3 +770,7 @@ body:not(.device-mobile-optimized) .CohWsy {
     margin-block-end: -0.17em;
   }
 }
+
+.font-slim {
+  font-weight: 200;
+}
