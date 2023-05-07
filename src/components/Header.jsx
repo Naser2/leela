@@ -109,7 +109,7 @@ export function Header() {
   return (
     <header className="">
       <nav>
-        <div className="max-w-10xl  mx-none relative z-50 mx-auto flex  justify-between  px-4 px-8 py-4 sm:px-6 sm:px-6  lg:px-36">
+        <div className="mx-none  lg:px-26 relative z-50 mx-auto flex  max-w-7xl  justify-between px-4 px-8 py-4 sm:px-6  sm:px-6">
           <div className="a9Lpus relative z-10 flex items-center gap-16">
             <Link
               href="/"

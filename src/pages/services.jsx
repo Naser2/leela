@@ -119,18 +119,30 @@ export default function ServicesPage() {
             id="left"
             class="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
           >
-            <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-left text-base font-semibold leading-7 text-blue-400   lg:text-xl ">
-                Expertise
-              </h2>
-              <FadeInSection>
-                {' '}
-                <h1 className="mb-4 !text-left text-4xl tracking-tight text-black sm:text-2xl lg:mt-10">
-                  Everything you need to launch and develop.
-                </h1>{' '}
-              </FadeInSection>
-              <p className="mt-6 pb-4 text-left text-lg  leading-8 text-gray-600 lg:text-2xl lg:text-gray-600/90">
-                <div className=" py-0 md:px-0 ">
+            <div className="flex-shrink-1 mx-auto mt-4 max-w-2xl lg:mx-0 lg:max-w-xl lg:pt-8 ">
+              <h1 className="text-2xl tracking-tight text-black sm:text-3xl lg:mt-10">
+                {/* <h2 class="pb-1 text-base  font-semibold lowercase capitalize leading-7  text-blue-400 lg:pb-4  lg:text-xl  ">
+                  Services
+                </h2> */}
+                Everything you need to launch anjd develop.
+              </h1>
+
+              <p className="my-2 pb-4 text-left text-lg  leading-8 text-gray-600 lg:text-2xl lg:text-gray-600/90">
+                <div className="my-4  md:-mt-4">
+                  <h3
+                    style={{
+                      letterSpacing: '0.1em',
+                    }}
+                    className="text-2 color_15 font_5  font_4 !text-left"
+                  >
+                    New business <span className="text-blue-400">|</span> Brand
+                    <span className="px-2 text-blue-400  ">|</span> Product{' '}
+                    <span className="px-2 text-blue-400 ">|</span>
+                    Launches:
+                  </h3>
+                </div>
+
+                {/* <div className=" py-0 md:px-0 ">
                   <h3
                     style={{
                       letterSpacing: '0.1em',
@@ -142,7 +154,7 @@ export default function ServicesPage() {
                     <span className="px-2 text-blue-400 ">|</span>
                     LAUNCHES:
                   </h3>
-                </div>
+                </div> */}
                 <div className="py-0 md:px-0 ">
                   <h3
                     style={{

@@ -264,7 +264,7 @@ export function Clients() {
           Our track record
         </h2> */}
 
-      <div className="max-w-8xl  mx-6 mx-auto px-4 sm:px-6 lg:mx-16 lg:pb-24  ">
+      <div className="max-w-8xl  mx-8 mx-auto px-4 sm:px-2 lg:mx-12 lg:pb-24  ">
         <div classNAme="mx-auto pb-4  text-center  ">
           <span class=" pb-4 ">
             <h2

@@ -24,9 +24,9 @@ import { Container } from './Container'
 export default function About() {
   return (
     <div className="relative mb-0 mt-4 px-4 py-6 lg:mt-24 lg:px-0 lg:py-4 ">
-      <div className="max-w-8xl  mx-6 mx-auto px-4 sm:px-6 lg:mx-16 lg:px-8">
-        <div classNAme="mx-auto pb-4  text-center  ">
-          <span class="pb-4">
+      <div className="max-w-8xl  mx-6 px-0 sm:px-6 lg:mx-auto lg:mx-16 lg:px-8">
+        <div classNAme="lg:mx-auto pb-4   text-center  ">
+          <span class="pb-4 ">
             <h2
               className="text-left text-2xl font-extrabold "
               style={{ letterSpacing: '0.1em' }}
@@ -35,7 +35,7 @@ export default function About() {
             </h2>
           </span>
         </div>
-        <p className="text-2 font_4 !text-black ">
+        {/* <p className="text-2 font_4 !text-black ">
           <span className="lg:inline-flex">
             <div className="mt-[0.6rem] inline-flex">
               <span>
@@ -47,7 +47,7 @@ export default function About() {
               </span>
             </div>
           </span>
-        </p>
+        </p> */}
       </div>
 
       <div className="max-w-8xl  mx-auto sm:mt-16 lg:px-8">
