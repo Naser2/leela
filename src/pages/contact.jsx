@@ -41,7 +41,7 @@ export default function contact() {
                 <p className="text-2xl tracking-tight text-black sm:text-3xl lg:mt-10">
                   GET IN TOUCH
                 </p>
-                <p className="text-2 color_15 font_5 font_4 py-6 pb-56 !text-center lg:py-0 lg:pb-0">
+                <p className="text-2 color_15 font_5 font_4 py-6 pb-44 !text-center lg:py-0 lg:pb-0">
                   <address className="contact-address lg:text-2xl">
                     <Link
                       href="mailto:soma@leelanyc.com"
