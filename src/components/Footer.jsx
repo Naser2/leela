@@ -27,7 +27,7 @@ export function Footer({ BG }) {
     <footer
       className={clsx(
         BG && BG,
-        'border-t border-gray-200 bg-slate-50 lg:pt-14 '
+        'overflow-hidden border-t border-gray-200 bg-slate-50  lg:pt-14'
       )}
     >
       <div
@@ -62,7 +62,7 @@ export function Footer({ BG }) {
           </nav>
         </div>
         <div className="flex max-w-none flex-col items-center justify-center border-t border-gray-200 bg-slate-100 px-4 pt-8 pb-12 sm:px-6 md:flex-row-reverse md:justify-between md:pt-6 lg:px-[14%] lg:px-8">
-          <nav className="mx-auto  flex max-w-7xl items-center justify-center  gap-8 py-6  lg:mt-11 lg:hidden ">
+          <nav className="mx-auto  flex max-w-7xl items-center justify-center  gap-6 py-6  lg:mt-11 lg:hidden ">
             <FooterNavLinks
               color={'text-black relative z-10 text-xl text-center px-2 '}
             />

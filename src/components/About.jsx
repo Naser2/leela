@@ -26,7 +26,7 @@ export default function About() {
     <div className="relative mb-0 mt-4 px-4 py-6 lg:mt-24 lg:px-0 lg:py-4 ">
       <div className="max-w-8xl  mx-6 px-0 sm:px-6 lg:mx-auto lg:mx-16 lg:px-8">
         <div classNAme="lg:mx-auto pb-4   text-center  ">
-          <span class="pb-4 ">
+          <span class="pb-4 md:pb-0 ">
             <h2
               className="text-left text-2xl font-extrabold "
               style={{ letterSpacing: '0.1em' }}
@@ -51,7 +51,7 @@ export default function About() {
       </div>
 
       <div className="max-w-8xl  mx-auto sm:mt-16 lg:px-8">
-        <div className="relative overflow-hidden px-0 py-20 shadow-xl sm:px-10 sm:py-24 md:px-12 lg:px-[3.4rem]">
+        <div className="m:pb-24 overflow-wrap relative px-0 py-20 shadow-xl sm:px-10 sm:pt-10 md:px-12 lg:px-[3.4rem]">
           {/* <img
             className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
             src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"

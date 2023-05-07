@@ -75,7 +75,7 @@ export function FooterNavLinks({ color }) {
       href={href}
       className={clsx(
         color ? color : ' text-gray-700',
-        'relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]'
+        'relative -my-2 -mx-3 rounded-lg px-2 py-2 text-sm transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]'
       )}
       onMouseEnter={() => setHoveredIndex(index)}
       onMouseLeave={() => setHoveredIndex(null)}
@@ -83,7 +83,7 @@ export function FooterNavLinks({ color }) {
       <AnimatePresence>
         {hoveredIndex === index && (
           <motion.span
-            className="absolute inset-0 rounded-lg bg-gray-700/80"
+            className="absolute inset-0 rounded-sm bg-gray-500/80"
             layoutId="hoverBackground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 0.15 } }}
@@ -95,7 +95,12 @@ export function FooterNavLinks({ color }) {
         )}
       </AnimatePresence>
       <span class="css-4xd708">
-        <span className={clsx(color ? color : 'css-n6s3hr relative z-10 ')}>
+        <span
+          className={clsx(
+            hoveredIndex === index && 'text-white',
+            'css-n6s3hr relative z-10 '
+          )}
+        >
           {label}
         </span>
         {/* <span class="css-lmv9yd">VIDEOS</span> */}
