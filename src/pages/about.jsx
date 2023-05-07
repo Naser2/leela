@@ -51,13 +51,13 @@ export default function AboutPage() {
               </h1>
             </div>
 
-            <div className="animate-fadeIn team-member-details px-6 pt-6 pb-0  md:py-6 lg:pl-10 xl:mr-24 min-[1400px]:px-14 min-[1600px]:pl-14">
+            <div className="animate-fadeIn team-member-details -mt-3 mb-4 px-6 pb-0 md:py-6  lg:pt-6 lg:pl-10 xl:mr-24 min-[1400px]:px-14 min-[1600px]:pl-14">
               <h1 class="member-name bg-gray-50/30 pb-2  md:pb-2 ">
                 <span className="sr-only font-extrabold md:not-sr-only md:py-3">
                   Soma Lisa Choudhury
                 </span>
 
-                <div class="lg:-mt-10px group relative mt-[1.23rem] mt-2 flex flex-none flex-col items-start border-t border-transparent border-sky-400 bg-sky-50/40 pb-2 text-left hover:border-t-2 md:pb-0 lg:w-[25vw] lg:hover:border-sky-400 ">
+                <div class="lg:-mt-10px group relative mt-[1.23rem] mt-2 flex flex-none flex-col items-start border-transparent bg-sky-50/40 pb-2 text-left hover:border-t-2 md:pb-0 lg:w-[25vw] lg:border-t lg:border-sky-400 lg:hover:border-sky-400 ">
                   <div className="mt-4 flex inline-flex">
                     <h2 class="member-jobtitle -mt-2 px-2 py-1.5  text-2xl text-blue-500  md:order-first  md:bg-sky-50/50 md:px-0  md:px-2  ">
                       LEELA&apos;s FOUNDER
@@ -79,7 +79,7 @@ export default function AboutPage() {
                   </div>
 
                   <p className="mt-0 mb-4 bg-sky-50/30 px-2  text-sm font-semibold leading-6 text-slate-800/80 text-slate-700 md:block lg:mt-2 lg:text-lg">
-                    <h2 class="member-jobtitle -mt-2  py-1.5 text-2xl  text-slate-600 md:order-first md:bg-sky-50/50 md:px-3 lg:-ml-4  lg:bg-sky-200/40 ">
+                    <h2 class="text-2 font_5 color_15 -mt-2 py-1.5  text-2xl text-slate-600 md:order-first  md:bg-sky-50/50 md:px-2 md:px-3 lg:-mt-0 lg:-ml-4  lg:bg-sky-200/40 ">
                       Brand Director & Senior marketing executive.
                     </h2>{' '}
                     <div
@@ -90,7 +90,7 @@ export default function AboutPage() {
                     </div>
                   </p>
                 </div>
-
+                {/* 
                 <div className="-mt-24px lg:-mt-10px lg::pb-6 group relative flex flex-none flex-col items-start border-t border-transparent bg-white bg-sky-50/40 pb-2 text-left hover:border-t-2  lg:mt-2 lg:w-[45vw]">
                   <p className="mt-0 mt-2 mb-4 bg-sky-50/10  px-2 text-sm  font-semibold leading-6 text-slate-800/70 text-slate-700 md:block  lg:text-lg">
                     <div className="bg-sky-50/1 mt-2  max-w-lg  border-t border-slate-400 pb-2 pt-6" />
@@ -106,7 +106,7 @@ export default function AboutPage() {
                       .
                     </span>
                   </p>
-                </div>
+                </div> */}
 
                 <h2 className="member-quaulities about-page-personal text-bold !lg:-pb-10 py-0 px-2  lg:mt-2 lg:w-[35vw]">
                   Positive, Artistic &amp; Worldly
@@ -168,9 +168,9 @@ export default function AboutPage() {
                 </FadeInSection>
               </div>
             </div>
-            <div className="gallery-LG min-[1399px]:hidden  min-[1703px]:hidden">
+            {/* <div className="gallery-LG min-[1399px]:hidden  min-[1703px]:hidden">
               <Gallery projects={projects} />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

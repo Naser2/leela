@@ -4,14 +4,17 @@ import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
+import { Contact, Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
-import { Reviews } from '@/components/Clients'
+import { Clients, Reviews } from '@/components/Clients'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import leelasMainImg from '@/images/leelaMainImg.png'
 import { motion, useScroll } from 'framer-motion'
 import FadeInSection from '@/components/FadeInSection'
+import { SectionHero } from '@/components/SectionHero'
+import About from '@/components/About'
+import LandingGallery from '@/components/LandingGallery'
 
 // function Component() {
 //   const { scrollYProgress } = useScroll();
@@ -37,34 +40,11 @@ export default function Home() {
         style={{ scaleX: scrollYProgress }}
       />
       <main className="overflow-hidden lg:mx-14 xl:px-24 ">
-        <div
-          id="intro"
-          className="mx-auto ml-3 -mt-4 max-w-7xl justify-center  pb-4 pt-10 sm:-mt-24 sm:pb-10 md:px-14 lg:-mt-32 lg:mr-0  lg:mt-0 lg:ml-28 lg:flex  lg:px-16 lg:pt-40 xl:px-64 xl:pt-10 "
-        >
-          <div className="lg:max-w-9xl -mx-4 flex flex-none overflow-hidden transition-transform duration-500  lg:ml-64 ">
-            <img
-              src={leelasMainImg.src}
-              alt="App screenshot"
-              width={2432}
-              height={1242}
-              className="mt-10 aspect-[1216/640] sm:rounded-3xl md:mt-0"
-            />
-          </div>
-        </div>{' '}
-        {/* <FadeInSection> */}{' '}
-        <div className="intro slid-wrapper first-slide animate-slideIn-section css-yln9tm mt-8  bg-gray-100 py-4 px-6 max-[800px]:top-[15%] sm:px-8 md:bg-transparent lg:absolute min-[1024px]:top-[38%] xl:-ml-10 xl:pt-20">
-          <div className="max-w-24 flex ">
-            <h2 className="max-w-24 flex  bg-slate-100/50 py-1.5 text-3xl text-slate-500 ">
-              LEELA <br />
-            </h2>
-          </div>
-          <h2 className="title -mt-4 text-slate-800/80">
-            CONSULTANCY <br />
-            SERVICE OFFERINGS
-          </h2>
-          <h1 className="title"> </h1>
-        </div>{' '}
-        <Hero />
+        <SectionHero />
+        <About />
+        <LandingGallery />
+        <Clients />
+        {/* <Contact /> */}
       </main>
     </>
   )

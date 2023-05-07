@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Inter';
   font-weight: 100 900;
   font-display: block;
@@ -13,7 +13,7 @@
   font-style: italic;
   font-named-instance: 'Italic';
   src: url('/fonts/Inter-italic.var.woff2') format('woff2');
-}
+} */
 
 @tailwind base;
 @tailwind components;
@@ -37,7 +37,7 @@ html {
 }
 
 .css-n6s3hr {
-  width: auto;
+  /* width: auto;
   height: auto;
   outline: none;
   text-align: center;
@@ -61,12 +61,34 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   background-color: transparent;
-  color: rgb(255, 255, 255);
+
   padding: 0px 16px;
   overflow: hidden;
   transform: translate3d(0px, 0px, 0px) scale(1, 1);
   transition: transform 50ms ease 0s;
-  min-height: 55px;
+  min-height: 55px; */
+  width: auto;
+  height: auto;
+  outline: none;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  align-items: center;
+  border-color: transparent;
+
+  box-sizing: border-box;
+  cursor: pointer;
+
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 0px 16px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px) scale(1, 1);
+  transition: transform 50ms ease 0s;
+  /* min-height: 55px; */
 }
 @media (min-width: 100px) {
   .css-n6s3hr {
@@ -135,6 +157,15 @@ h3 {
   line-height: 1em;
   padding-left: 0px;
   margin-top: 0px;
+}
+h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 h1 {
   text-transform: uppercase;
@@ -335,3 +366,375 @@ h1 {
     padding-right: 50rem !important;
   }
 } */
+
+/* ELEONORE NEWW STYLE  */
+
+/* lement.style {
+  font-size: 100px;
+  line-height: 1.1em;
+} */
+:root,
+:host {
+  --color_0: 255, 255, 255;
+  --color_28: 102, 56, 152;
+  --color_1: 255, 255, 255;
+  --color_2: 0, 0, 0;
+  --color_3: 237, 28, 36;
+  --color_4: 0, 136, 203;
+  --color_5: 255, 203, 5;
+  --color_6: 114, 114, 114;
+  --color_7: 176, 176, 176;
+  --color_8: 255, 255, 255;
+  --color_29: 75, 32, 134;
+  --color_9: 114, 114, 114;
+  --color_10: 176, 176, 176;
+  --color_11: 255, 255, 255;
+  --color_12: 232, 230, 230;
+  --color_13: 156, 156, 156;
+  --color_14: 97, 97, 97;
+  --color_15: 26, 24, 24;
+  --color_16: 253, 220, 229;
+  --color_17: 241, 157, 190;
+  --color_18: 234, 70, 134;
+  --color_30: 43, 10, 89;
+  --color_19: 156, 47, 89;
+  --color_20: 78, 23, 45;
+  --color_21: 234, 243, 255;
+  --color_22: 158, 193, 239;
+  --color_23: 82, 131, 196;
+  --color_24: 40, 88, 153;
+  --color_25: 18, 57, 110;
+  --color_26: 233, 210, 255;
+  --color_31: 253, 243, 220;
+  --color_32: 250, 232, 190;
+  --color_33: 250, 205, 102;
+  --color_34: 224, 172, 52;
+  --color_35: 199, 142, 10;
+  --font_0: normal normal bold 65px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light,
+    din-next-w02-light, din-next-w10-light, sans-serif;
+  --font_2: normal normal bold 40px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_3: normal normal bold 60px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_3: normal normal bold 60px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_4: normal normal bold 135px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_5: normal normal bold 25px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_6: normal normal normal 20px/1.4em poppins-semibold, poppins,
+    sans-serif;
+  --font_7: normal normal bold 17px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_7: normal normal bold 17px/1.4em poppins-semibold, poppins, sans-serif;
+  --font_8: normal normal normal 15px/1.4em poppins-semibold, poppins,
+    sans-serif;
+  --font_9: normal normal bold 12px/1.4em poppins-extralight, poppins,
+    sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light,
+    din-next-w02-light, din-next-w10-light, sans-serif;
+  --wix-ads-height: 0px;
+  --wix-ads-top-height: 0px;
+  --site-width: 980px;
+  --above-all-z-index: 100000;
+  --portals-z-index: 100001;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --minViewportSize: 320;
+  --color_27: 196, 158, 232;
+  --maxViewportSize: 1920;
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  width: 100%;
+  --column-width: 320px;
+  --column-flex: 320;
+  --tooltip-text-color: white;
+  --tooltip-background-color: black;
+  --tooltip-margin: 30px;
+  --tooltip-arrow-size: 6px;
+  --font-family: poppins-semibold, poppins, sans-serif;
+  --txt: var(--color_15);
+  --fnt: var(--font_7);
+}
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-size: 93px; */
+}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+* {
+  font-family: var(--font-family);
+} */
+.BaOVQ8 blockquote,
+.BaOVQ8 h1,
+.BaOVQ8 h2,
+.BaOVQ8 h3,
+.BaOVQ8 h4,
+.BaOVQ8 h5,
+.BaOVQ8 h6,
+.BaOVQ8 p,
+.KcpHeO blockquote,
+.KcpHeO h1,
+.KcpHeO h2,
+.KcpHeO h3,
+.KcpHeO h4,
+.KcpHeO h5,
+.KcpHeO h6,
+.KcpHeO p {
+  margin: 0;
+}
+.font_4 {
+  font: var(--font_4);
+  font: normal normal bold 135px/1.4em poppins-semibold, poppins, sans-serif;
+  /* font-weight: bold; */
+  color: rgb(var(--color_29));
+  letter-spacing: 0em;
+}
+.font_5 {
+  font: var(--font_5);
+  color: rgb(var(--color_18));
+  letter-spacing: 0em;
+}
+.color_15 {
+  color: rgb(var(--color_15));
+}
+.color_15 {
+  color: rgb(var(--color_15));
+}
+:-webkit-any(article, aside, nav, section)
+  :-webkit-any(article, aside, nav, section)
+  h1 {
+  font-size: 1.17em;
+  /* margin-block-start: 1em; */
+  /* margin-block-end: 1em; */
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  /* margin-block-end: 0.83em; */
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+}
+
+.site-title {
+  font-weight: 50;
+  font-weight: bold;
+  font-size: '100px';
+}
+@media (min-width: 1024px) {
+  .site-title {
+    font-weight: bold;
+    /* font-weight: 100 !important; */
+    font-weight: bold;
+    font-size: '100px';
+  }
+}
+.text-2 {
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 17px;
+}
+@media (min-width: 1024px) {
+  .text-2 {
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 23px;
+  }
+}
+.MW5IWV .Kv1aVt {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.MW5IWV .Kv1aVt {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.MW5IWV .Kv1aVt {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.MW5IWV .Kv1aVt {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.LWbAav {
+  background-color: var(--bg-overlay-color);
+  background-image: var(--bg-gradient);
+}
+.LWbAav {
+  background-color: var(--bg-overlay-color);
+  background-image: var(--bg-gradient);
+}
+.LWbAav {
+  background-color: var(--bg-overlay-color);
+  background-image: var(--bg-gradient);
+}
+.LWbAav {
+  background-color: var(--bg-overlay-color);
+  background-image: var(--bg-gradient);
+}
+
+.color_15 {
+  color: rgb(26, 24, 24);
+}
+
+/* SITE TITLE  */
+
+.BaOVQ8,
+.KcpHeO {
+  word-wrap: break-word;
+  min-height: var(--min-height);
+  min-width: var(--min-width);
+  overflow-wrap: break-word;
+  pointer-events: none;
+  text-align: start;
+}
+
+[data-mesh-id$='-gridContainer'] > *,
+[data-mesh-id$='-rotated-wrapper'] > *,
+[data-mesh-id$='inlineContent'] > :not([data-mesh-id$='-gridContainer']) {
+  pointer-events: auto;
+}
+[data-mesh-id$='centeredContent'],
+[data-mesh-id$='form'],
+[data-mesh-id$='inlineContent'] {
+  pointer-events: none;
+  position: relative;
+}
+#comp-jwuch34k {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  width: 100%;
+  --column-width: 980px;
+  --column-flex: 980;
+}
+#comp-jwuch32x {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  --padding: 0px;
+  --margin: 0px;
+  /* min-width: 980px;
+  --firstChildMarginTop: -1px;
+  --lastChildMarginBottom: -1px; */
+}
+:host(:not(.device-mobile-optimized)) .CohWsy,
+body:not(.device-mobile-optimized) .CohWsy {
+  --display: flex;
+  display: var(--display);
+}
+#comp-l8iumseq {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  min-width: 980px;
+}
+.SPY_vo {
+  pointer-events: none;
+}
+#SITE_PAGES {
+  --transition-duration: 600ms;
+}
+#PAGES_CONTAINER {
+  --pinned-layer-in-container: 51;
+  --above-all-in-container: 49;
+}
+#masterPage {
+  --pinned-layers-in-page: 0;
+}
+
+/* NAVBAR ICON */
+/* .a9Lpus {
+  height: 20px;
+  margin: auto;
+  position: relative;
+  width: 22px;
+} */
+
+/* NAVBAR ARISTIC MENU ICON    */
+
+#comp-k3wogsz7 {
+  /* --stroke-width: 0; */
+  --fill-opacity: 1;
+  --stroke: #5e97ff;
+  --stroke-opacity: 1;
+  --fill: #000000;
+}
+
+.dmOTL_ {
+  color: rgb(var(--txts, var(--color_13)));
+}
+.dmOTL_ {
+  align-items: center;
+  box-sizing: border-box;
+  color: rgb(var(--txt, var(--color_15)));
+  cursor: pointer;
+  display: flex;
+  font: var(--fnt, var(--font_1));
+  height: 100%;
+  justify-content: var(--text-align, flex-start);
+  line-height: var(--item-height, 50px);
+  padding-left: var(--textSpacing, 10px);
+  padding-right: var(--textSpacing, 10px);
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.conpany-specicialty {
+  font-family: poppins-extralight, poppins, sans-serif !important;
+}
+
+.DesktopNavlinks {
+  letter-spacing: 0.1em;
+}
+
+.MobileNavlinks {
+  color: rgb(var(--txt, var(--color_15)));
+  text-transform: uppercase;
+  /* font: var(--fnt, var(--font_1)); */
+  font: normal normal bold 23px/1.4em poppins-semibold, poppins, sans-serif;
+  left: 0;
+  line-height: var(--item-height, 50px);
+  overflow: hidden;
+  /* position: absolute; */
+  /* right: 0; */
+  text-overflow: ellipsis;
+  top: 0;
+
+  white-space: nowrap;
+}

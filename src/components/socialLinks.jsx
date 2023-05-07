@@ -104,3 +104,46 @@ const social = [
     ),
   },
 ]
+
+export const Links = () => {
+  return (
+    <div className="inline-flex gap-x-4 lg:gap-x-24  ">
+      {' '}
+      {[
+        ['Instagram', '/about'],
+        ['LinkedIn', '/#services'],
+        ['Facebook', '/#services'],
+        // ['Reviews', '#reviews'],
+        // ['Pricing', '#pricing'],
+        // ['Contact', '#contact'],
+      ].map(([label, href], index) => (
+        <Link
+          key={label}
+          href={href}
+          className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]"
+        >
+          <span class="css-4xd708">
+            {/* class="KcpHeO tz5f0K comp-l91l2ce6 wixui-rich-text"> */}
+            <h6
+              class="font_6 wixui-rich-text__text"
+              style={{ textAlign: 'center', fontSize: '20px' }}
+            >
+              <a
+                href="https://www.instagram.com/eleonoretoulin/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="wixui-rich-text__text"
+              >
+                <span class="color_15 wixui-rich-text__text">
+                  <span class="wixui-rich-text__text underline">{label}</span>
+                </span>
+              </a>
+            </h6>
+
+            {/* {label} */}
+          </span>
+        </Link>
+      ))}
+    </div>
+  )
+}

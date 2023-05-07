@@ -10,13 +10,14 @@ export default function FadeInSection(props) {
   React.useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        console.log(`entry`, entry, `is = ${entry.isIntersecting}`)
+        // console.log(`entry`, entry, `is = ${entry.isIntersecting}`)
         setVisible(entry.isIntersecting)
       })
     })
 
     const { current } = domRef
     observer.observe(current)
+    console.log(`CUREENT DOM REF`, current)
 
     return () => observer.unobserve(current)
   }, [])

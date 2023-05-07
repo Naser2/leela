@@ -256,24 +256,28 @@ export function Clients() {
     <section
       id="clients"
       aria-labelledby="reviews-title"
-      className="pt-20 pb-16 sm:pt-32 sm:pb-24"
+      className="-mt-28 pb-16 sm:pt-12 sm:pb-24"
     >
-      <Container>
-        <h2 className="text-center text-base font-semibold leading-8 text-blue-400  lg:text-xl ">
+      <Container className="px-6">
+        {/* <h2 className="text-left text-base font-semibold leading-8 text-blue-400 lg:text-center  lg:text-xl ">
           Our track record
-        </h2>
-        <p className="mt-2 text-center text-3xl  font-bold tracking-tight text-black sm:text-4xl">
-          Trusted by clients &nbsp;worldwide
+        </h2> */}
+
+        <p className="mt-2 px-6  text-left text-3xl font-bold  tracking-tight text-black sm:text-4xl lg:text-center">
+          Clients
         </p>
-        {/* <h2
-          id="reviews-title"
-          className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
-        >
-          Everyone is changing their life with Pocket.
-        </h2>{' '} */}
-        <p className="mt-2  px-4 text-center text-lg text-gray-600 lg:text-2xl ">
-          I had the oporutnity to work with clients in diverse fields.
-        </p>
+
+        <div className="px-6 py-0 md:px-0 ">
+          <h3
+            style={{
+              letterSpacing: '0.1em',
+            }}
+            className="!text-left lg:!text-center "
+          >
+            I had the priviledge to work with clients in diverse fields.
+          </h3>
+        </div>
+
         <ReviewGrid />
       </Container>
     </section>
