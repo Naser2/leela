@@ -155,7 +155,7 @@ export default function LandingGallery() {
         </div>{' '} */}
         <div id="about-cta" className="mt-4 mb-1 ">
           <Link
-            href="/porfolio"
+            href="/portfolio"
             className="!css-n6s3hr  !bg-black px-3 !px-4 !py-3  uppercase text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 group-hover:!bg-blue-500"
           >
             View Porfolio <span aria-hidden="true">→</span>
