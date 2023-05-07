@@ -64,8 +64,9 @@ export function FooterNavLinks({ color }) {
 
   return [
     ['About', '/about'],
-    ['Services', '/#services'],
-    ['Portfolio', '/portfolio'],
+    ['Services', 'services'],
+    ['Clients', '/#clients'],
+    ['Contact', '/contact'],
     // ['Pricing', '#pricing'],
     // ['Contact', '#contact'],
   ].map(([label, href], index) => (
