@@ -738,3 +738,25 @@ body:not(.device-mobile-optimized) .CohWsy {
 
   white-space: nowrap;
 }
+
+.nocontent-code {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nocontent-text-h1 {
+  display: inline-block;
+  text-align: left;
+  line-height: 49px;
+  height: 49px;
+  vertical-align: middle;
+}
+
+.nocontent-code {
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+  padding: 0px 23px 0px 0px;
+  font-size: 24px;
+  font-weight: 500;
+  vertical-align: top;
+  line-height: 49px;
+}
