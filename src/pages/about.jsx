@@ -37,7 +37,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="grid grid-cols-1 px-2 lg:grid-cols-2 min-[1399px]:grid-cols-1  ">
-            <div className="team-member-details -mb-10 px-6 pt-6 md:hidden ">
+            <div className="team-member-details -mb-10 px-6 pt-0 md:hidden ">
               {' '}
               <h1 class="member-name bg-gray-50/30 md:pb-2">
                 <span className="font-extrabold">Soma Lisa Choudhury</span>
