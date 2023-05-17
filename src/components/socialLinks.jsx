@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import messengerIcon from '@/images/messenger-icon.png'
 export const SocialLinks = () => {
   return (
     <div className="flex space-x-6 md:order-2 md:pt-2 lg:pb-3 lg:pt-0  ">
@@ -27,7 +27,8 @@ export const SocialLinks = () => {
       >
         <img
           class="h-5 w-5 flex-none fill-sky-500 stroke-sky-500 text-sky-500 md:h-6  md:w-6 "
-          src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/7nNmS7JFpjU.png"
+          src={messengerIcon.src}
+          // height={5} width={5}
           alt=""
           height="16"
           width="16"

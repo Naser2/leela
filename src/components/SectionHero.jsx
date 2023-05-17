@@ -1,13 +1,5 @@
-import leelaMain from '@/images/leela-main-img.jpeg'
-import leelaMainTemporary1 from '@/images/leelaMainTemporary-1.png'
-import project1 from '@/images/projects-1.png'
-import project2 from '@/images/projects-2.png'
-import project3 from '@/images/projects-3.png'
-import project4 from '@/images/projects-4.png'
-import projectXl1 from '@/images/projects-xl-1.png'
-import projectXl2 from '@/images/projects-xl-1.png'
 import LeelaPlaceHoderMain from '@/images/Leela_placehoder-1.png'
-import featuredProject from '@/images/leela-hero-img-3.png'
+
 import FadeInSection from './FadeInSection'
 export const SectionHero = () => {
   return (
@@ -45,47 +37,6 @@ export const SectionHero = () => {
           </div>
         </li>
       </ul>
-      {/* <div data-testid="columns" className="V5AUxf">
-        <div
-          id="comp-jwuch34k"
-          className="comp-jwuch34k YzqVVZ wixui-column-strip__column"
-        >
-          <div className="md:mx-6 lg:mx-0">
-            <div className="-pt-34">
-              <div
-                id="SITE-TITLE"
-                className=" -mt-36 px-[6%] py-[27%] min-[600px]:hidden  "
-              >
-                <SiteTitle />
-              </div>
-
-              <div className="items-center justify-center gap-y-2 gap-x-4 md:grid md:grid-cols-9 lg:gap-x-8 xl:gap-x-20">
-                <div
-                  id="DESKTOP-SITE-TITLE"
-                  className="cols-span-6 col-start-1 max-[600px]:hidden"
-                >
-                  <SiteTitle />
-                </div>
-                <div
-                  className="opacicy-1 z-20 col-start-5 col-end-10 bg-blue-600"
-                  title="leela-main-img"
-                >
-                  <div data-testid="linkElement relative " className="j7pOnl ">
-                    <div className="HlRz5e BI8PVQ">
-                      <img
-                        className="z-10"
-                        src={LeelaPlaceHoderMain.src}
-                        alt=""
-                        fetchpriority="high"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </section>
   )
 }
@@ -97,7 +48,6 @@ const SiteTitle = () => {
     <div className="-mt-10 pl-3  text-left lg:-mt-10  lg:px-0 xl:ml-4 min-[1400px]:mx-6 ">
       <h1 style={{ lineHeight: '1.05em' }} className="color_15 !-pb-8 ">
         <span className="color_15">MARKETING CONSULTANCY </span>
-        {/* <span className="color_15 mt-4 ">CONSULTANCY </span> */}
       </h1>
 
       <p className="text-2 font_4 subtitle-color -mb-4 mt-1  sm:-mt-4 lg:-mt-4 lg:-mt-0 ">
@@ -109,11 +59,10 @@ const SiteTitle = () => {
                   letterSpacing: '0.1em',
                 }}
               >
-                <FadeInSection>Branding & Product</FadeInSection>
+                Branding & Product
                 <span>Product Strategy</span> <br />
                 <span> Marketing Development</span>
               </h3>
-              {/* <span className="lg:ml-2"> Marketing Development.</span> */}
             </span>
           </div>
         </span>

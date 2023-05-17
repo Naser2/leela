@@ -23,7 +23,7 @@ import { Container } from './Container'
 
 export default function About() {
   return (
-    <div className="relative mb-0 mt-4 px-4 py-6 lg:mt-24 lg:px-0 lg:py-4 ">
+    <div className="relative mb-0 mt-0 px-4 py-6 lg:mt-14 lg:px-0 lg:py-4 ">
       <div className="max-w-8xl  mx-6 px-0 sm:px-6 lg:mx-auto lg:mx-16 lg:px-8">
         <div classNAme="lg:mx-auto pb-4   text-center  ">
           <span class="pb-4 md:pb-0 ">
@@ -35,41 +35,10 @@ export default function About() {
             </h2>
           </span>
         </div>
-        {/* <p className="text-2 font_4 !text-black ">
-          <span className="lg:inline-flex">
-            <div className="mt-[0.6rem] inline-flex">
-              <span>
-                <h3 style={{ letterSpacing: '0.1em' }}>
-                  <FadeInSection>
-                    Introducing Leela, the marketing consultancy
-                  </FadeInSection>
-                </h3>
-              </span>
-            </div>
-          </span>
-        </p> */}
       </div>
 
       <div className="max-w-8xl  mx-auto sm:mt-16 lg:px-8">
         <div className="m:pb-24 overflow-wrap relative px-0 py-20 shadow-xl sm:px-10 sm:pt-10 md:px-12 lg:px-[3.4rem]">
-          {/* <img
-            className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
-            src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"
-            alt=""
-          /> */}
-          {/* <div className="absolute inset-0 bg-gray-900/90 mix-blend-multiply" /> */}
-          {/* <div
-            className="absolute -left-80 -top-56 transform-gpu blur-3xl"
-            aria-hidden="true"
-          >
-            // <div
-            //   className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-[0.45]"
-            //   style={{
-            //     clipPath:
-            //       'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-            //   }}
-            // />
-          </div> */}
           <div
             className="hidden md:absolute md:bottom-16 md:left-[50rem] md:block md:transform-gpu md:blur-3xl"
             aria-hidden="true"
@@ -83,11 +52,6 @@ export default function About() {
             />
           </div>
           <div className="max-w-8xl relative mx-auto -mt-14 px-6 lg:mx-0  lg:px-0 ">
-            {/* <img
-              className="h-12 w-auto"
-              src="https://tailwindui.com/img/logos/workcation-logo-white.svg"
-              alt=""
-            /> */}
             <figure>
               <p className="animate-fadeIn paragraph  text-sm lg:text-2xl">
                 <span style={{ letterSpacing: '0.1em' }} className="">

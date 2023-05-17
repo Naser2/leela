@@ -45,7 +45,7 @@ export default function ServicesPage() {
   return (
     <>
       <div id="services" className="relative isolate mt-4">
-        <div className="max-w-9xl mx-auto items-center  justify-center bg-gray-50/50 px-6   pt-10 pb-24 pt-2 sm:pb-40 md:px-14 lg:flex">
+        <div className="max-w-9xl mx-auto items-center  justify-center bg-gray-50/50 px-6   pt-4 pb-24 pt-2 sm:pb-40 md:px-14 lg:flex">
           <motion.div animate={{ x: 100 }} transition={{ delay: 1 }} />{' '}
           <div className="flex-shrink-1 mx-auto mt-4 max-w-2xl lg:mx-0 lg:max-w-xl lg:pt-8 ">
             <h1 className="text-2xl tracking-tight text-black sm:text-3xl lg:mt-10">
