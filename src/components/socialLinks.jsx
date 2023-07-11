@@ -26,7 +26,7 @@ export const SocialLinks = () => {
         aria-controls="headlessui-tabs-panel-4"
       >
         <img
-          class="h-5 w-5 flex-none fill-sky-500 stroke-sky-500 text-sky-500 md:h-6  md:w-6 "
+          className="h-5 w-5 flex-none fill-sky-500 stroke-sky-500 text-sky-500 md:h-6  md:w-6 "
           src={messengerIcon.src}
           // height={5} width={5}
           alt=""
@@ -123,20 +123,22 @@ export const Links = () => {
           href={href}
           className="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]"
         >
-          <span class="css-4xd708">
-            {/* class="KcpHeO tz5f0K comp-l91l2ce6 wixui-rich-text"> */}
+          <span className="css-4xd708">
+            {/* className="KcpHeO tz5f0K comp-l91l2ce6 wixui-rich-text"> */}
             <h6
-              class="font_6 wixui-rich-text__text"
+              className="font_6 wixui-rich-text__text"
               style={{ textAlign: 'center', fontSize: '20px' }}
             >
               <a
                 href="https://www.instagram.com/eleonoretoulin/"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="wixui-rich-text__text"
+                className="wixui-rich-text__text"
               >
-                <span class="color_15 wixui-rich-text__text">
-                  <span class="wixui-rich-text__text underline">{label}</span>
+                <span className="color_15 wixui-rich-text__text">
+                  <span className="wixui-rich-text__text underline">
+                    {label}
+                  </span>
                 </span>
               </a>
             </h6>

@@ -13,7 +13,7 @@ import leelasMainImg from '@/images/leelaMainImg.png'
 import { motion, useScroll } from 'framer-motion'
 import FadeInSection from '@/components/FadeInSection'
 import { SectionHero } from '@/components/SectionHero'
-import About from '@/components/About'
+import ProjectList from '@/components/ProjectList'
 import LandingGallery from '@/components/LandingGallery'
 
 // function Component() {
@@ -41,9 +41,8 @@ export default function Home() {
       />
       <main className="overflow-hidden lg:mx-14 xl:px-24 ">
         <SectionHero />
-        <About />
-        {/* <LandingGallery /> */}
-        <Clients />
+        <ProjectList />
+        {/* <Clients /> */}
         {/* <Contact /> */}
       </main>
     </>

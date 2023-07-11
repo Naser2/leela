@@ -30,8 +30,8 @@ export default function NoContent({ message }) {
               {message.text}
             </h2>
           </div>
-          {/* <div class="sr-only mt-10 flex items-center sm:not-sr-only sm:mt-44">
-            <h1 class="inline-block text-2xl font-extrabold tracking-tight text-slate-900 dark:text-slate-200 sm:text-3xl">
+          {/* <div className="sr-only mt-10 flex items-center sm:not-sr-only sm:mt-44">
+            <h1 className="inline-block text-2xl font-extrabold tracking-tight text-slate-900 dark:text-slate-200 sm:text-3xl">
               Oooops -This Page is undergoing development. Come back soon.
             </h1>
           </div> */}

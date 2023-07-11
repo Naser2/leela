@@ -35,7 +35,7 @@ import {
   UsersIcon,
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import About from './About'
+import About from './ProjectList'
 import { Clients } from './Clients'
 import FadeInSection from './FadeInSection'
 function BackgroundIllustration(props) {
@@ -511,14 +511,14 @@ const footerNavigation = {
     //       aria-controls="headlessui-tabs-panel-4"
     //     >
     //       <img
-    //         class="h-5 w-5 flex-none fill-sky-500  stroke-sky-500 text-gray-500 lg:h-8  lg:w-8"
+    //         className="h-5 w-5 flex-none fill-sky-500  stroke-sky-500 text-gray-500 lg:h-8  lg:w-8"
     //         src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/7nNmS7JFpjU.png"
     //         alt=""
     //         height="16"
     //         width="16"
     //         fill="fill-sky-500"
     //       ></img>
-    //       <span class="px-2 text-gray-500 hover:text-blue-500 lg:mx-2 lg:text-lg">
+    //       <span className="px-2 text-gray-500 hover:text-blue-500 lg:mx-2 lg:text-lg">
     //         Message
     //       </span>
     //     </Link>
@@ -635,7 +635,7 @@ export const Contact = () => {
 //           <motion.div animate={{ x: 100 }} transition={{ delay: 1 }} />{' '}
 //           <div className="flex-shrink-1 mx-auto mt-4 max-w-2xl lg:mx-0 lg:max-w-xl lg:pt-8 ">
 //             <h1 className="text-4xl font-bold tracking-tight text-black sm:text-6xl  lg:mt-10">
-//               <h2 class="text-base font-semibold leading-7 text-blue-400 lg:text-xl ">
+//               <h2 className="text-base font-semibold leading-7 text-blue-400 lg:text-xl ">
 //                 Services
 //               </h2>
 //               GLOBAL PLATFORM FOCUS.
@@ -691,10 +691,10 @@ export const Contact = () => {
 //         className="max-w-9xl mx-auto bg-gray-50 px-6  py-2 sm:mt-56 sm:px-6 md:px-8 lg:mt-6  lg:px-16"
 //       >
 //         <FadeInSection>
-//           <div class=" mx-auto mt-20  px-4 sm:mt-24 lg:mt-32 lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
+//           <div className=" mx-auto mt-20  px-4 sm:mt-24 lg:mt-32 lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
 //             <div
 //               id="left"
-//               class="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
+//               className="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
 //             >
 //               <div className="mx-auto max-w-2xl text-center">
 //                 <h2 className="text-left text-base font-semibold leading-7 text-blue-400   lg:text-xl ">
@@ -718,7 +718,7 @@ export const Contact = () => {
 
 //             <div
 //               id="rigth"
-//               class="relative col-span-7 col-start-6 row-start-1 mt-4 xl:col-span-6  xl:col-start-7 "
+//               className="relative col-span-7 col-start-6 row-start-1 mt-4 xl:col-span-6  xl:col-start-7 "
 //             >
 //               <img
 //                 src={leelaHeroImg2.src}

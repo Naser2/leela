@@ -27,20 +27,20 @@ export function Footer({ BG }) {
     <footer
       className={clsx(
         BG && BG,
-        'overflow-hidden border-t border-gray-200 bg-slate-50  lg:pt-14'
+        'overflow-hidden border-t  border-gray-200 bg-slate-50 pt-24  lg:pt-14'
       )}
     >
-      <div
+      {/* <div
         id="link"
         className="flex items-center justify-center py-6 lg:hidden lg:px-6"
       >
         <SocialLinks
           color={'text-black relative z-10 text-xl text-center px-3 '}
         />
-      </div>
+      </div> */}
       <div>
-        <div className="mx-auto -mt-24 flex max-w-7xl  items-start justify-between gap-y-12 overflow-hidden  px-6  px-4 pb-6 sm:px-6 lg:flex-row lg:flex-col lg:items-center lg:px-8 lg:pb-10  lg:pt-0">
-          <div>
+        <div className="mx-auto  flex max-w-7xl  items-start justify-between gap-y-12 overflow-hidden  px-6  px-4 pb-6 sm:px-6 lg:flex-row lg:flex-col lg:items-center lg:px-8 lg:pb-10  lg:pt-0">
+          {/* <div>
             <div className="mx-auto  flex max-w-7xl items-center px-4 text-gray-900 sm:px-6 md:hidden lg:px-8">
               <div className="ml-4">
                 <div
@@ -54,12 +54,12 @@ export function Footer({ BG }) {
                 </p>
               </div>
             </div>
-          </div>
-          <nav className="inline-flex hidden justify-center gap-8  px-[5%] lg:mt-11  lg:flex">
+          </div> */}
+          {/* <nav className="inline-flex hidden justify-center gap-8  px-[5%] lg:mt-11  lg:flex">
             <SocialLinks
               color={'text-black relative z-10 text-xl text-center px-3 '}
             />
-          </nav>
+          </nav> */}
         </div>
         <div className="flex max-w-none flex-col items-center justify-center border-t border-gray-200 bg-slate-100 px-4 pt-8 pb-12 sm:px-6 md:flex-row-reverse md:justify-between md:pt-6 lg:px-[14%] lg:px-8">
           <nav className="mx-auto  flex max-w-7xl items-center justify-center  gap-6 py-6  lg:mt-11 lg:hidden ">

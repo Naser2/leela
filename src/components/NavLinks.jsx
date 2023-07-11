@@ -38,12 +38,12 @@ export function NavLinks() {
           />
         )}
       </AnimatePresence>
-      <span class="css-4xd708">
+      <span className="css-4xd708">
         <span className={clsx('css-n6s3hr relative z-10 ')}>{label}</span>
-        {/* <span class="css-lmv9yd">VIDEOS</span> */}
-        <span class="css-rk7ym5">
+        {/* <span className="css-lmv9yd">VIDEOS</span> */}
+        <span className="css-rk7ym5">
           <div
-            class="css-mzw0dv"
+            className="css-mzw0dv"
             style={{
               borderTopWidth: '2px',
               transform: 'scaleX(0)',
@@ -94,7 +94,7 @@ export function FooterNavLinks({ color }) {
           />
         )}
       </AnimatePresence>
-      <span class="css-4xd708">
+      <span className="css-4xd708">
         <span
           className={clsx(
             hoveredIndex === index && 'text-white',
@@ -103,10 +103,10 @@ export function FooterNavLinks({ color }) {
         >
           {label}
         </span>
-        {/* <span class="css-lmv9yd">VIDEOS</span> */}
-        <span class="css-rk7ym5">
+        {/* <span className="css-lmv9yd">VIDEOS</span> */}
+        <span className="css-rk7ym5">
           <div
-            class="css-mzw0dv"
+            className="css-mzw0dv"
             style={{
               borderTopWidth: '2px',
               transform: 'scaleX(0)',

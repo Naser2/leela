@@ -197,10 +197,10 @@ const Gallery = ({ projects, grid }) => {
       <div role="list" className="dark:highlight-white/10 rounded-t-xl">
         {/* dark:border-indigo-500/20 */}
         {/* <div>
-          <h2 class="max-w-64 pb-4 text-2xl font-semibold text-slate-600  md:order-first md:pb-0">
+          <h2 className="max-w-64 pb-4 text-2xl font-semibold text-slate-600  md:order-first md:pb-0">
             PROJECTS
           </h2>
-          <div class="max-w-24 flex  border-b border-sky-400 pb-4 font-semibold" />
+          <div className="max-w-24 flex  border-b border-sky-400 pb-4 font-semibold" />
         </div> */}
         <ul
           role="list"

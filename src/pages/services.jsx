@@ -49,7 +49,7 @@ export default function ServicesPage() {
           <motion.div animate={{ x: 100 }} transition={{ delay: 1 }} />{' '}
           <div className="flex-shrink-1 mx-auto mt-4 max-w-2xl lg:mx-0 lg:max-w-xl lg:pt-8 ">
             <h1 className="text-2xl tracking-tight text-black sm:text-3xl lg:mt-10">
-              <h2 class="pb-1 text-base  font-semibold lowercase capitalize leading-7  text-blue-400 lg:pb-4  lg:text-xl  ">
+              <h2 className="pb-1 text-base  font-semibold lowercase capitalize leading-7  text-blue-400 lg:pb-4  lg:text-xl  ">
                 Services
               </h2>
               GLOBAL PLATFORM FOCUS.
@@ -114,14 +114,14 @@ export default function ServicesPage() {
         id="detailedExpertise"
         className="max-w-9xl mx-auto mt-10 bg-gray-50 px-8 py-2 sm:mt-24  sm:mt-56 sm:px-6 md:px-8 lg:mt-3 lg:mt-6  lg:px-16"
       >
-        <div class=" mx-auto    lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
+        <div className=" mx-auto    lg:grid lg:grid-cols-12 lg:items-center lg:gap-8">
           <div
             id="left"
-            class="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
+            className="relative col-span-5 col-start-1 row-start-1 -mt-10 xl:col-span-6"
           >
             <div className="flex-shrink-1 mx-auto mt-4 max-w-2xl lg:mx-0 lg:max-w-xl lg:pt-8 ">
               <h1 className="text-2xl tracking-tight text-black sm:text-3xl lg:mt-10">
-                {/* <h2 class="pb-1 text-base  font-semibold lowercase capitalize leading-7  text-blue-400 lg:pb-4  lg:text-xl  ">
+                {/* <h2 className="pb-1 text-base  font-semibold lowercase capitalize leading-7  text-blue-400 lg:pb-4  lg:text-xl  ">
                   Services
                 </h2> */}
                 Everything you need to launch anjd develop.
@@ -175,7 +175,7 @@ export default function ServicesPage() {
 
           <div
             id="rigth"
-            class="relative col-span-7 col-start-6 row-start-1 mt-4 xl:col-span-6  xl:col-start-7 "
+            className="relative col-span-7 col-start-6 row-start-1 mt-4 xl:col-span-6  xl:col-start-7 "
           >
             <img
               src={leelaHeroImg2.src}
@@ -290,10 +290,10 @@ const Gallery = ({ projects, grid }) => {
       <div role="list" className="dark:highlight-white/10 rounded-t-xl">
         {/* dark:border-indigo-500/20 */}
         <div>
-          <h2 class="max-w-64 pb-4 text-2xl font-semibold text-slate-600  md:order-first md:pb-0">
+          <h2 className="max-w-64 pb-4 text-2xl font-semibold text-slate-600  md:order-first md:pb-0">
             PROJECTS
           </h2>
-          <div class="max-w-24 flex  border-b border-sky-400 pb-4 font-semibold" />
+          <div className="max-w-24 flex  border-b border-sky-400 pb-4 font-semibold" />
         </div>
         <ul
           role="list"

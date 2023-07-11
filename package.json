@@ -10,6 +10,7 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
+    "@pdftron/webviewer": "^8.1.0",
     "@headlessui/react": "^1.7.8",
     "@heroicons/react": "^2.0.17",
     "@tailwindcss/forms": "^0.5.3",

@@ -266,7 +266,7 @@ export function Clients() {
 
       <div className="max-w-8xl  mx-8 mx-auto px-4 sm:px-2 lg:mx-12 lg:pb-24  ">
         <div classNAme="mx-auto pb-4  text-center  ">
-          <span class=" pb-4 ">
+          <span className=" pb-4 ">
             <h2
               className="text-left text-2xl font-extrabold "
               style={{ letterSpacing: '0.1em' }}

@@ -57,20 +57,21 @@ export function MobileIcon(props) {
   return (
     <svg
       viewBox="0 0 24 24"
-      class="h-12 w-12  stroke-slate-900 lg:h-14 lg:w-14"
+      className="h-12 w-12  stroke-slate-900 lg:h-14 lg:w-14"
     >
       <path
         d="M3.75 12h16.5M3.75 6.75h16.5M3.75 17.25h16.5"
         fill="none"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        inecap="round"
       ></path>
     </svg>
-    // <div class="dgPk4k">
-    //   <div class="a9Lpus">
-    //     <span class="UBzAay htSWpZ"></span>
-    //     <span class="UBzAay jAmyzP"></span>
-    //     <span class="UBzAay BDFUUv"></span>
+    // <div className="dgPk4k">
+    //   <div className="a9Lpus">
+    //     <span className="UBzAay htSWpZ"></span>
+    //     <span className="UBzAay jAmyzP"></span>
+    //     <span className="UBzAay BDFUUv"></span>
     //   </div>
     // </div>
   )
@@ -202,7 +203,7 @@ export const NewHeader = () => {
             <Logo />
           </div>
 
-          <div class="lg:border-slate-900/15  border-black lg:ml-8 lg:items-center lg:border-l lg:pl-8">
+          <div className="lg:border-slate-900/15  border-black lg:ml-8 lg:items-center lg:border-l lg:pl-8">
             <Popover className="">
               {({ open }) => (
                 <>
@@ -278,7 +279,7 @@ export const NewHeader = () => {
           </div>
 
           {/* 
-          <div class="lg:border-slate-900/15 -mt-20 hidden h-20 w-20 border-black lg:ml-8 lg:flex lg:items-center lg:border-l lg:pl-8">
+          <div className="lg:border-slate-900/15 -mt-20 hidden h-20 w-20 border-black lg:ml-8 lg:flex lg:items-center lg:border-l lg:pl-8">
             <MenuIcon />
           </div> */}
         </div>

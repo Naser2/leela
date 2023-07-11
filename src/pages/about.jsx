@@ -7,31 +7,31 @@ import { SocialLinks } from '@/components/socialLinks'
 export default function AboutPage() {
   return (
     <>
-      <div class="hero-content mt-0 lg:mx-[4rem] lg:pt-16  xl:mx-[6rem]  ">
-        <div class="flex  flex-col bg-gray-50 md:grid md:grid-cols-1 xl:px-14 min-[1400px]:grid-cols-2 ">
-          <div class="row bg-white">
+      <div className="hero-content mt-0 lg:mx-[4rem] lg:pt-16  xl:mx-[6rem]  ">
+        <div className="flex  flex-col bg-gray-50 md:grid md:grid-cols-1 xl:px-14 min-[1400px]:grid-cols-2 ">
+          <div className="row bg-white">
             <div className="lg:px--12">
               {/* grid grid-cols-1 px-2 lg:grid-cols-2 min-[1399px]:grid-cols-1   */}
               <div className="px-2 lg:grid-cols-2 ">
                 <div className="team-member-details -mb-10 px-6 pt-0 md:hidden ">
                   {' '}
-                  <h1 class="member-name bg-gray-50/10 md:pb-2">
+                  <h1 className="member-name bg-gray-50/10 md:pb-2">
                     <span className="font-slim">Soma Lisa Choudhury</span>
                   </h1>
                 </div>
 
                 <div className="animate-fadeIn team-member-details -mt-3 mb-4 px-6 pb-0 md:py-6  lg:pt-6 lg:pl-10 xl:mr-4 min-[1400px]:px-4 min-[1600px]:pl-4">
-                  <h1 class="member-name bg-gray-50/20 pb-2  md:pb-2 ">
+                  <h1 className="member-name bg-gray-50/20 pb-2  md:pb-2 ">
                     <span className="font-slim  sr-only md:not-sr-only md:py-3">
                       Soma Lisa Choudhury
                     </span>
-                    <div class="lg:-mt-10px group relative mt-[1.23rem] mt-2 flex flex-none flex-col items-start border-transparent pb-2 text-left hover:border-t-2 md:pb-0  ">
+                    <div className="lg:-mt-10px group relative mt-[1.23rem] mt-2 flex flex-none flex-col items-start border-transparent pb-2 text-left hover:border-t-2 md:pb-0  ">
                       <div className="mt-4 flex inline-flex">
-                        <h2 class="member-jobtitle mmd:px-0 -mt-2  mb-4 px-2  py-1.5 text-2xl  text-blue-500  md:order-first  md:px-2  ">
+                        <h2 className="member-jobtitle mmd:px-0 -mt-2  mb-4 px-2  py-1.5 text-2xl  text-blue-500  md:order-first  md:px-2  ">
                           LEELA&apos;s FOUNDER
                         </h2>{' '}
                         <svg
-                          class="ml-0  mr-1.5 mt-1 h-5 w-5 flex-shrink-0 text-blue-400"
+                          className="ml-0  mr-1.5 mt-1 h-5 w-5 flex-shrink-0 text-blue-400"
                           x-description="Heroicon name: mini/check-circle"
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -47,7 +47,7 @@ export default function AboutPage() {
                       </div>
 
                       <p className="mb-4  bg-sky-50/10 px-2 text-sm  font-semibold leading-6 text-slate-800/80 text-slate-700 md:mx-4 md:block lg:mt-2 lg:text-lg">
-                        <h2 class="text-2 font_5 color_15 -mt-2 py-1.5  text-2xl text-slate-600 md:order-first  lg:-mt-0 lg:-ml-4  lg:bg-sky-100/10 ">
+                        <h2 className="text-2 font_5 color_15 -mt-2 py-1.5  text-2xl text-slate-600 md:order-first  lg:-mt-0 lg:-ml-4  lg:bg-sky-100/10 ">
                           Brand Director & Senior marketing executive.
                         </h2>{' '}
                       </p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                         className="mt-2 flex max-h-12 max-w-[8rem] items-center rounded-md bg-white py-[0.4375rem] px-2 pr-2 text-sm font-semibold  shadow md:mt-1 lg:max-w-[10rem] lg:pr-3 xl:mt-2 "
                       >
                         <img
-                          class="h-5 w-5 flex-none fill-sky-500 stroke-sky-500 text-sky-500 md:h-6 md:w-6 "
+                          className="h-5 w-5 flex-none fill-sky-500 stroke-sky-500 text-sky-500 md:h-6 md:w-6 "
                           src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/7nNmS7JFpjU.png"
                           alt=""
                           height="14"
@@ -106,13 +106,13 @@ export default function AboutPage() {
           <div className=" px-2 ">
             <div className="animate-fadeIn team-member-details -mt-3 mb-4 px-6 pb-0 md:py-6  lg:pt-6 lg:pl-10 min-[1400px]:px-14 min-[1600px]:pl-4">
               <div className="">
-                <div class="group relative -mt-px flex flex-none flex-col items-start px-2 pt-4  text-left md:-ml-4 md:w-[35vw] md:px-4 md:pb-6 md:pt-4 lg:w-auto">
-                  <h2 class="pb-4 text-2xl  md:order-first md:pb-0 lg:px-2 ">
+                <div className="group relative -mt-px flex flex-none flex-col items-start px-2 pt-4  text-left md:-ml-4 md:w-[35vw] md:px-4 md:pb-6 md:pt-4 lg:w-auto">
+                  <h2 className="pb-4 text-2xl  md:order-first md:pb-0 lg:px-2 ">
                     BIO
                   </h2>
                 </div>
-                {/* <div class="group relative -mt-px flex  flex-none flex-col  items-start border-t border-transparent px-4 pb-6 pt-4 text-left md:-ml-4 md:w-[35vw] md:pb-16 md:pt-8 lg:w-auto">
-            <p class="mt-2 hidden bg-white text-sm leading-6 text-slate-700 md:block ">
+                {/* <div className="group relative -mt-px flex  flex-none flex-col  items-start border-t border-transparent px-4 pb-6 pt-4 text-left md:-ml-4 md:w-[35vw] md:pb-16 md:pt-8 lg:w-auto">
+            <p className="mt-2 hidden bg-white text-sm leading-6 text-slate-700 md:block ">
               Senior marketing executive with global experience in building,.
             </p>
           </div> */}
